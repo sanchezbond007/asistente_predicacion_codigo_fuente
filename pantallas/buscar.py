@@ -1,35 +1,62 @@
-# pantallas/buscar.py
-
-from kivy.app import App
 from kivy.uix.screenmanager import Screen
-from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
+from kivy.uix.scrollview import ScrollView
+from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
 
 class PantallaBuscar(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        layout = BoxLayout(orientation='vertical', padding=20, spacing=20)
-        self.input = TextInput(hint_text="Escribe para buscar…", size_hint_y=None, height=60)
-        btn = Button(text="Buscar", size_hint_y=None, height=60)
-        btn.bind(on_release=lambda *_: self._realizar_busqueda(self.input.text))
-        self.result_lbl = Label(text="", valign='top')
 
-        layout.add_widget(self.input)
-        layout.add_widget(btn)
-        layout.add_widget(self.result_lbl)
-        self.add_widget(layout)
+        root = FloatLayout()
 
-    def _realizar_busqueda(self, texto_buscar: str):
-        # Aquí iría tu lógica real de búsqueda…
-        # Por ahora simulamos una lista de resultados:
-        resultados = ["Tema A", "Tema B", "Tema C"] if texto_buscar else []
-        self.result_lbl.text = (
-            "\n".join(resultados) if resultados else "Por favor escribe algo."
+        # Campo de texto aún más abajo
+        self.entrada = TextInput(
+            hint_text='Escribe para buscar...',
+            size_hint=(0.9, None),
+            height=90,
+            font_size=60,
+            pos_hint={'x': 0.05, 'top': 0.58}
         )
 
-        # Registra el evento en el historial global
-        App.get_running_app().registrar_evento(
-            f"Búsqueda: '{texto_buscar}' → {len(resultados)} resultados"
+        # Botón más abajo aún
+        btn_buscar = Button(
+            text='Buscar',
+            size_hint=(0.9, None),
+            height=90,
+            font_size=60,
+            pos_hint={'x': 0.05, 'top': 0.44}
         )
+        btn_buscar.bind(on_press=self.buscar_tema)
+
+        # Scroll para resultados debajo
+        self.resultados = GridLayout(cols=1, size_hint_y=None, spacing=10, padding=10)
+        self.resultados.bind(minimum_height=self.resultados.setter('height'))
+
+        scroll = ScrollView(
+            size_hint=(0.9, 0.35),
+            pos_hint={'x': 0.05, 'y': 0.02}
+        )
+        scroll.add_widget(self.resultados)
+
+        # Añadir todo
+        root.add_widget(self.entrada)
+        root.add_widget(btn_buscar)
+        root.add_widget(scroll)
+        self.add_widget(root)
+
+    def buscar_tema(self, instance):
+        texto = self.entrada.text.lower()
+        self.resultados.clear_widgets()
+
+        temas = ["Fe", "Esperanza", "Jesús", "Reino de Dios", "Amor"]
+        for tema in temas:
+            if texto in tema.lower():
+                self.resultados.add_widget(Label(
+                    text=tema,
+                    size_hint_y=None,
+                    height=60,
+                    font_size=50
+                ))

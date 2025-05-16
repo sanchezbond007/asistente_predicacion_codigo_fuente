@@ -1,4 +1,4 @@
-[INFO   ] Logger: Record log in /storage/emulated/0/asistente_predicacion_migracion_kivy/.kivy/logs/kivy_25-05-14_53.txt
+[INFO   ] Logger: Record log in /storage/emulated/0/asistente_predicacion_migracion_kivy/.kivy/logs/kivy_25-05-16_7.txt
 [INFO   ] Kivy: v2.3.1
 [INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/__init__.py"
 [INFO   ] Python: v3.13.2 (main, Mar 31 2025, 08:14:59) [GCC 11.4.0]

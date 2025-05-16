@@ -1,0 +1,4 @@
+kivy
+colorama
+requests
+Pillow
