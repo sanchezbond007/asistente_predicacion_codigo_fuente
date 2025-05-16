@@ -1,0 +1,186 @@
+{
+  "bloque": 5,
+  "descripcion": "Este archivo contiene los temas del BLOQUE 6 (final) de un total de 180 temas bíblicos con preguntas y respuestas de acuerdo con las enseñanzas de los Testigos de Jehová.",
+  "temas": [
+    {
+      "titulo": "¿Por qué debemos poner el Reino en primer lugar?",
+      "respuesta": "Porque Jesús enseñó que es la prioridad en la vida de un cristiano.",
+      "cita": "Mateo 6:33",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Cómo muestra Dios amor a la humanidad?",
+      "respuesta": "Envió a su Hijo para darnos vida eterna y cuida de nosotros con ternura.",
+      "cita": "Juan 3:16",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Es posible agradar a Dios hoy?",
+      "respuesta": "Sí, mediante la fe, la obediencia y un estilo de vida piadoso.",
+      "cita": "Hebreos 11:6",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el compañerismo cristiano?",
+      "respuesta": "Fortalece la fe y muestra amor entre hermanos.",
+      "cita": "Salmo 133:1",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué esperanza da Dios a los jóvenes?",
+      "respuesta": "Que pueden servirle con gozo y tener un futuro eterno en su Reino.",
+      "cita": "Eclesiastés 12:1",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué actitud tener hacia los errores del pasado?",
+      "respuesta": "Dios perdona y podemos aprender de ellos para mejorar.",
+      "cita": "Isaías 1:18",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre la educación superior?",
+      "respuesta": "Debemos buscar primero intereses espirituales y tener cuidado con las influencias.",
+      "cita": "Colosenses 2:8",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Deben los cristianos celebrar fiestas religiosas?",
+      "respuesta": "No, porque muchas tienen orígenes paganos o doctrinas no bíblicas.",
+      "cita": "2 Corintios 6:14-17",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Cómo se muestra la misericordia cristiana?",
+      "respuesta": "Perdonando, ayudando a los necesitados y actuando con compasión.",
+      "cita": "Lucas 6:36",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Por qué debemos tener valor espiritual?",
+      "respuesta": "Porque enfrentamos oposición del mundo y necesitamos defender nuestra fe.",
+      "cita": "Josué 1:9",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre las buenas obras?",
+      "respuesta": "Son una manifestación de nuestra fe y amor a Dios.",
+      "cita": "Santiago 2:17",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Cuál es el propósito de la resurrección?",
+      "respuesta": "Restaurar la vida a quienes han muerto, para que vivan bajo el Reino de Dios.",
+      "cita": "Hechos 24:15",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Deben los cristianos evitar la política?",
+      "respuesta": "Sí, deben ser neutrales y confiar en el Reino de Dios.",
+      "cita": "Juan 18:36",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Qué actitud debemos tener ante el sufrimiento?",
+      "respuesta": "Debemos ser pacientes y confiar en la ayuda de Jehová.",
+      "cita": "Romanos 12:12",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué es el pecado según la Biblia?",
+      "respuesta": "Es la desobediencia a las leyes de Dios.",
+      "cita": "1 Juan 3:4",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre la inmortalidad del alma?",
+      "respuesta": "El alma muere; no es inmortal. La esperanza es la resurrección.",
+      "cita": "Ezequiel 18:4",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Cómo agradar a Dios como familia?",
+      "respuesta": "Orando juntos, estudiando la Biblia y aplicando sus principios en el hogar.",
+      "cita": "Efesios 5:33–6:4",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué es la santificación del nombre de Dios?",
+      "respuesta": "Es honrar y dar gloria al nombre de Jehová con nuestra conducta y predicación.",
+      "cita": "Mateo 6:9",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Cuál es el papel de los ángeles?",
+      "respuesta": "Sirven como mensajeros de Dios y ayudan a sus siervos.",
+      "cita": "Hebreos 1:14",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre la idolatría?",
+      "respuesta": "Está prohibida en todas sus formas; sólo Jehová debe ser adorado.",
+      "cita": "Éxodo 20:4-5",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Qué efecto tiene la lectura bíblica en los jóvenes?",
+      "respuesta": "Los hace sabios para la salvación y les da guía moral.",
+      "cita": "2 Timoteo 3:15",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué papel tiene la congregación en tiempos difíciles?",
+      "respuesta": "Brinda consuelo, fortaleza y apoyo mutuo.",
+      "cita": "1 Tesalonicenses 5:11",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Cómo afecta la oración a nuestra vida espiritual?",
+      "respuesta": "Nos mantiene conectados con Jehová y fortalece nuestra fe.",
+      "cita": "Salmo 55:22",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué esperanza hay para los que no han conocido a Dios?",
+      "respuesta": "Tendrán la oportunidad de aprender sobre Él durante el reinado de Cristo.",
+      "cita": "Hechos 17:30-31",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Cómo demostrar que confiamos en Jehová?",
+      "respuesta": "Obedeciendo su Palabra incluso en circunstancias difíciles.",
+      "cita": "Proverbios 3:5-6",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre el temor al hombre?",
+      "respuesta": "Nos puede hacer tropezar; debemos temer solo a Dios.",
+      "cita": "Proverbios 29:25",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué es la limpieza moral según la Biblia?",
+      "respuesta": "Evitar inmoralidad, pensamientos impuros y vivir conforme a la santidad.",
+      "cita": "1 Tesalonicenses 4:3-5",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el amor verdadero?",
+      "respuesta": "Es paciente, bondadoso, no busca lo suyo y nunca falla.",
+      "cita": "1 Corintios 13:4-8",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Por qué confiar en las profecías bíblicas?",
+      "respuesta": "Porque se han cumplido y se seguirán cumpliendo con precisión.",
+      "cita": "Isaías 46:10",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el fin del sistema?",
+      "respuesta": "Será reemplazado por el Reino de Dios que traerá justicia eterna.",
+      "cita": "Daniel 2:44",
+      "categoria": "Esperanza"
+    }
+  ]
+}

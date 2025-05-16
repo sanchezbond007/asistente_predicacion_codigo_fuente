@@ -1,0 +1,47 @@
+{
+  "titulo":    "¿Existe el infierno como lugar de tormento eterno?",
+  "respuesta": "No. En la Biblia hebrea y griega el término correspondiente al “infierno” es Sheol o Hades, que significa “tumba” o “mundo de los muertos”.\n\nJehová prometió “devolver la vida” a quienes duermen en la muerte (Hech. 24:15), lo cual contradice la idea de un castigo consciente e interminable.",
+  "cita":      "Job 14:13; Hechos 24:15",
+  "profundizar": [
+    {
+      "subtitulo": "1. Sheol en el Antiguo Testamento",
+      "texto":     "Sheol aparece unas 65 veces como “sepultura” o “mundo de los muertos”, un estado de inconsciencia similar al sueño (Job 7:21; Sal. 6:5). No hay descripciones de “fuego” ni tormento allí.",
+      "versiculos": [
+        { "ref": "Job 7:21", "texto": "¿Por qué no me devuelves el aliento, para no dormir en el polvo?" },
+        { "ref": "Salmo 6:5", "texto": "Porque en la muerte no hay recuerdo de ti; ¿quién te alabaría en el Seol?" }
+      ]
+    },
+    {
+      "subtitulo": "2. Hades en el Nuevo Testamento",
+      "texto":     "Hades es la traducción griega de Sheol. Pablo y Jesús lo usan para referirse a la misma tumba colectiva de la humanidad (Lucas 16:23 habla de un rico que “está en el Hades”, sin aludir a un tormento eterno).",
+      "versiculos": [
+        { "ref": "Mateo 11:23", "texto": "¡Ay de ti, Corazín! Porque si en Tiro y Sidón se hubieran hecho los milagros... harían penitencia sentados en cilicio y ceniza." },
+        { "ref": "Apocalipsis 1:18", "texto": "Yo estuve muerto, pero he aquí que vivo para siempre jamás, y tengo las llaves de la muerte y del Seol." }
+      ]
+    },
+    {
+      "subtitulo": "3. Lógica de la creación — ¿Quién creó el tormento?",
+      "texto":     "Génesis 1 describe cómo Dios creó cielo, tierra y “todo lo que en ella hay” (v. 1–31). No menciona ningún “infierno” como lugar de castigo activo. La pena de muerte (el alma al Seol) vino por el pecado de Adán, no por un diseño original de Dios.",
+      "versiculos": [
+        { "ref": "Génesis 1:31", "texto": "Y vio Dios todo lo que había hecho, y he aquí que era bueno en gran manera." },
+        { "ref": "Romanos 6:23", "texto": "La paga del pecado es muerte..." }
+      ]
+    },
+    {
+      "subtitulo": "4. Job y el Seol — inconsciencia, no tormento",
+      "texto":     "Cuando Job suplica: “¿No me librarás tú del Seol?”, está pidiendo que no sea abandonado en la tumba como un cadáver inerte (Job 14:13). Si el Seol fuese un lugar de tormento consciente, pedir no ir allí no tendría sentido.",
+      "versiculos": [
+        { "ref": "Job 14:13", "texto": "Si tan solo escondieras tu rostro, y me escondieras con ellos en el Seol." },
+        { "ref": "Salmo 115:17", "texto": "Los muertos no alaban a Jehová, ni ninguno que desciende al silencio." }
+      ]
+    },
+    {
+      "subtitulo": "5. Esperanza de la resurrección",
+      "texto":     "La enseñanza bíblica es que Dios devolverá la vida a los muertos por medio de su Hijo resucitado (Juan 5:28, 29). Eso es incompatible con la idea de un infierno eterno donde ningún muerto puede salir.",
+      "versiculos": [
+        { "ref": "Juan 5:28-29", "texto": "No os maravilléis de esto; porque vendrá hora en que todos los que están en los sepulcros oirán su voz, y saldrán..." },
+        { "ref": "Hechos 24:15", "texto": "Tener esperanza en Dios —esperanza de que habrá resurrección de muertos, tanto de justos como de injustos." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "bloque": 4,
+  "descripcion": "Este archivo contiene los temas del BLOQUE 5 (de 6) de un total de 180 temas bíblicos con preguntas y respuestas de acuerdo con las enseñanzas de los Testigos de Jehová.",
+  "temas": [
+    {
+      "titulo": "¿Por qué debemos tener fe en las promesas de Dios?",
+      "respuesta": "Porque Jehová siempre cumple lo que promete y nunca falla.",
+      "cita": "Josué 23:14",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre la humildad?",
+      "respuesta": "La humildad nos acerca a Dios y nos protege del orgullo.",
+      "cita": "Proverbios 22:4",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué es el espíritu santo?",
+      "respuesta": "Es la fuerza activa de Dios, que guía y fortalece a sus siervos.",
+      "cita": "Hechos 1:8",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué actitud debemos tener hacia el trabajo en la congregación?",
+      "respuesta": "Debe ser de disposición voluntaria y con espíritu de servicio.",
+      "cita": "Salmo 110:3",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Por qué la unidad es importante entre los cristianos?",
+      "respuesta": "Demuestra que somos verdaderos discípulos de Cristo.",
+      "cita": "Juan 17:21",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre el aborto?",
+      "respuesta": "La vida es sagrada desde el vientre y debe ser respetada.",
+      "cita": "Éxodo 21:22-23",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Cómo fortalecer nuestra relación con Jehová?",
+      "respuesta": "Mediante la oración, el estudio y la obediencia diaria.",
+      "cita": "Santiago 4:8",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Por qué debemos evitar la pornografía?",
+      "respuesta": "Corrompe el corazón y debilita nuestra espiritualidad.",
+      "cita": "Mateo 5:28",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Cuál es la misión principal de los cristianos hoy?",
+      "respuesta": "Dar testimonio del Reino de Dios a toda la humanidad.",
+      "cita": "Mateo 24:14",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre la muerte?",
+      "respuesta": "La muerte es un estado de inconsciencia, no de sufrimiento eterno.",
+      "cita": "Eclesiastés 9:5",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué actitud debemos tener hacia la corrección bíblica?",
+      "respuesta": "Debemos aceptarla con gratitud y humildad.",
+      "cita": "Proverbios 1:8",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Deben los cristianos hacer juramentos?",
+      "respuesta": "Jesús enseñó a decir simplemente 'sí' o 'no'.",
+      "cita": "Mateo 5:37",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Por qué es vital el amor al prójimo?",
+      "respuesta": "Es el segundo mandamiento más importante según Jesús.",
+      "cita": "Mateo 22:39",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué importancia tiene el nombre de Dios?",
+      "respuesta": "Debe ser santificado y dado a conocer a las naciones.",
+      "cita": "Ezequiel 36:23",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué es la apostasía?",
+      "respuesta": "Es el abandono o rechazo de la verdad bíblica revelada.",
+      "cita": "2 Tesalonicenses 2:3",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Por qué Dios permite el sufrimiento?",
+      "respuesta": "Para resolver cuestiones morales universales y demostrar su justicia.",
+      "cita": "Job 1:9-11",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Por qué debemos predicar con urgencia?",
+      "respuesta": "Porque el fin se acerca y las personas necesitan conocer la verdad.",
+      "cita": "2 Timoteo 4:2",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Cómo debemos vestirnos como cristianos?",
+      "respuesta": "Con modestia y respeto, reflejando dignidad y buen juicio.",
+      "cita": "1 Timoteo 2:9",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre los espíritus?",
+      "respuesta": "Prohíbe toda forma de espiritismo y contacto con los muertos.",
+      "cita": "Deuteronomio 18:10-12",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Qué beneficios trae la lectura diaria de la Biblia?",
+      "respuesta": "Nos acerca a Dios, nos da sabiduría y fortalece la fe.",
+      "cita": "Salmo 1:1-3",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué promesas tiene Dios para la Tierra?",
+      "respuesta": "Será transformada en un paraíso donde vivirá la humanidad obediente.",
+      "cita": "Isaías 11:6-9",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué actitud debemos tener hacia el matrimonio?",
+      "respuesta": "Debe ser honrado, duradero y basado en el amor verdadero.",
+      "cita": "Hebreos 13:4",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el egoísmo?",
+      "respuesta": "Debemos imitar a Cristo y poner a otros por encima de nosotros.",
+      "cita": "Filipenses 2:3",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué hará Dios con la maldad?",
+      "respuesta": "La eliminará completamente mediante su Reino justo.",
+      "cita": "Salmo 37:9-10",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Deben los cristianos buscar venganza?",
+      "respuesta": "No, debemos dejar lugar a la ira de Dios.",
+      "cita": "Romanos 12:19",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué papel tiene la congregación en la vida cristiana?",
+      "respuesta": "Nos brinda apoyo espiritual y nos ayuda a crecer en la fe.",
+      "cita": "Efesios 4:11-13",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué es la conciencia limpia ante Dios?",
+      "respuesta": "Es actuar de forma que no nos acuse interiormente ante Jehová.",
+      "cita": "1 Pedro 3:16",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre la avaricia?",
+      "respuesta": "Debemos evitarla porque es idolatría y conduce a la ruina.",
+      "cita": "Colosenses 3:5",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué esperanza ofrece la Biblia a los enfermos?",
+      "respuesta": "Dios eliminará las enfermedades en el nuevo mundo.",
+      "cita": "Isaías 33:24",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué significa ser luz del mundo?",
+      "respuesta": "Reflejar buenas obras y la verdad en un mundo oscuro.",
+      "cita": "Mateo 5:14-16",
+      "categoria": "Conducta"
+    }
+  ]
+}

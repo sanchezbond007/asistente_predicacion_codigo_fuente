@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Carlos Pérez",
+        "correo": "carlos@example.com",
+        "telefono": "555-1234",
+        "testigo": "José Sánchez"
+    },
+    {
+        "nombre": "Ana López",
+        "correo": "ana@example.com",
+        "telefono": "555-5678",
+        "testigo": "María Rivera"
+    },
+    {
+        "nombre": "Luis García",
+        "correo": "luis@example.com",
+        "telefono": "555-9101",
+        "testigo": "Pedro Torres"
+    }
+]

@@ -1,0 +1,186 @@
+{
+  "bloque": 3,
+  "descripcion": "Este archivo contiene los temas del BLOQUE 4 (de 6) de un total de 180 temas bíblicos con preguntas y respuestas de acuerdo con las enseñanzas de los Testigos de Jehová.",
+  "temas": [
+    {
+      "titulo": "¿Qué significa temer a Dios?",
+      "respuesta": "Significa tener profundo respeto y reverencia hacia Él, y evitar lo que le desagrada.",
+      "cita": "Proverbios 8:13",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué es la neutralidad cristiana?",
+      "respuesta": "Es la decisión de no participar en conflictos políticos o militares, imitando a Jesús.",
+      "cita": "Juan 17:16",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Cómo podemos tener una buena conciencia ante Dios?",
+      "respuesta": "Obedeciendo su Palabra y manteniéndonos limpios moralmente.",
+      "cita": "1 Pedro 3:16",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el amor a los enemigos?",
+      "respuesta": "Jesús enseñó que debemos amar, orar por ellos y no buscar venganza.",
+      "cita": "Mateo 5:44",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre la obediencia a Dios?",
+      "respuesta": "Obedecer a Dios es mejor que cualquier sacrificio, y le agrada profundamente.",
+      "cita": "1 Samuel 15:22",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Por qué debemos asistir a las reuniones cristianas?",
+      "respuesta": "Para fortalecernos unos a otros y mostrar amor y fe activa.",
+      "cita": "Hebreos 10:24-25",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué es la sabiduría divina?",
+      "respuesta": "Es la capacidad de aplicar el conocimiento bíblico correctamente en la vida diaria.",
+      "cita": "Santiago 3:17",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Por qué es importante la gratitud?",
+      "respuesta": "Porque honra a Dios y nos ayuda a ser felices con lo que tenemos.",
+      "cita": "1 Tesalonicenses 5:18",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué beneficios trae el estudio personal de la Biblia?",
+      "respuesta": "Fortalece nuestra fe, nos acerca a Dios y nos guía en la vida.",
+      "cita": "Josué 1:8",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué actitud debemos tener hacia los ancianos cristianos?",
+      "respuesta": "Debemos respetarlos, escucharlos y obedecer su guía basada en la Biblia.",
+      "cita": "Hebreos 13:17",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Cómo se demuestra la lealtad a Dios?",
+      "respuesta": "Manteniéndose fiel bajo pruebas y obedeciendo sus mandamientos.",
+      "cita": "Salmo 31:23",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre el racismo?",
+      "respuesta": "Dios no hace distinción entre personas. Todos somos iguales ante Él.",
+      "cita": "Hechos 10:34-35",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el materialismo?",
+      "respuesta": "No debemos poner las cosas materiales por encima de nuestra espiritualidad.",
+      "cita": "Mateo 6:24",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Cuál es la recompensa de ser íntegro?",
+      "respuesta": "Dios protege y bendice a quienes se mantienen leales en todo momento.",
+      "cita": "Salmo 84:11",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre el autocontrol?",
+      "respuesta": "Es parte del fruto del espíritu y nos ayuda a tomar decisiones sabias.",
+      "cita": "Gálatas 5:22-23",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué es la justicia de Dios?",
+      "respuesta": "Es perfecta, imparcial y basada en amor y verdad.",
+      "cita": "Deuteronomio 32:4",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Por qué debemos perdonar a otros?",
+      "respuesta": "Porque así imitamos a Dios y facilitamos la paz entre hermanos.",
+      "cita": "Colosenses 3:13",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre las apuestas y el juego?",
+      "respuesta": "Promueven la codicia y son incompatibles con el amor a Dios.",
+      "cita": "1 Timoteo 6:9-10",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué actitud debemos tener hacia la corrección?",
+      "respuesta": "Aceptarla con humildad como expresión del amor de Dios.",
+      "cita": "Proverbios 3:11-12",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el chisme?",
+      "respuesta": "El chisme destruye amistades y es desaprobado por Dios.",
+      "cita": "Proverbios 20:19",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Por qué debemos trabajar duro?",
+      "respuesta": "Porque es parte del propósito de Dios y nos da satisfacción.",
+      "cita": "Eclesiastés 3:13",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el alcohol?",
+      "respuesta": "No prohíbe beber, pero sí condena el abuso y la embriaguez.",
+      "cita": "Efesios 5:18",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Deben los cristianos obedecer las leyes humanas?",
+      "respuesta": "Sí, siempre que no contradigan la ley de Dios.",
+      "cita": "Tito 3:1",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué esperanza da Dios a los que sufren injusticias?",
+      "respuesta": "Dios traerá justicia mediante su Reino y recompensará a los fieles.",
+      "cita": "Salmo 103:6",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Cómo debemos tratar a los animales?",
+      "respuesta": "Con respeto y cuidado, reconociendo que son creación de Dios.",
+      "cita": "Proverbios 12:10",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre el divorcio?",
+      "respuesta": "Solo se permite por inmoralidad sexual.",
+      "cita": "Mateo 19:9",
+      "categoria": "Debates"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre las redes sociales?",
+      "respuesta": "Debemos usarlas con sabiduría y evitar contenido perjudicial.",
+      "cita": "Filipenses 4:8",
+      "categoria": "Conducta"
+    },
+    {
+      "titulo": "¿Qué significa seguir el ejemplo de Cristo?",
+      "respuesta": "Imitar su amor, humildad, fe y obediencia a Jehová.",
+      "cita": "1 Pedro 2:21",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Cómo podemos prepararnos para el futuro?",
+      "respuesta": "Fortaleciendo nuestra relación con Jehová y confiando en sus promesas.",
+      "cita": "Isaías 33:6",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre el lenguaje ofensivo?",
+      "respuesta": "Debe evitarse por completo; nuestras palabras deben edificar.",
+      "cita": "Colosenses 4:6",
+      "categoria": "Conducta"
+    }
+  ]
+}

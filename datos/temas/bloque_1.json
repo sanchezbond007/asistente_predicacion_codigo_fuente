@@ -1,0 +1,186 @@
+{
+  "bloque": 1,
+  "descripcion": "Este archivo contiene los temas del BLOQUE 1 de un total de 180 temas bíblicos, con preguntas y respuestas de acuerdo con las enseñanzas de los Testigos de Jehová.",
+  "temas": [
+    {
+      "titulo": "¿Quién es Dios?",
+      "respuesta": "Dios es el Creador del cielo y la tierra, el Ser Supremo. Su nombre es Jehová.",
+      "cita": "Salmo 83:18",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Quién es Jesucristo?",
+      "respuesta": "Jesucristo es el Hijo de Dios, el Mesías prometido, y el primero de toda la creación.",
+      "cita": "Juan 3:16",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué es el Reino de Dios?",
+      "respuesta": "Es un gobierno celestial establecido por Jehová que reemplazará los gobiernos humanos.",
+      "cita": "Mateo 6:9-10",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Por qué sufrimos?",
+      "respuesta": "Por vivir en un mundo gobernado por Satanás, bajo pecado heredado y condiciones injustas.",
+      "cita": "1 Juan 5:19",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué esperanza hay para los muertos?",
+      "respuesta": "La resurrección. Jehová devolverá la vida a los que han muerto.",
+      "cita": "Juan 5:28-29",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué es la Biblia?",
+      "respuesta": "Es la Palabra inspirada de Dios para guiar a la humanidad.",
+      "cita": "2 Timoteo 3:16",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Por qué debemos orar a Dios?",
+      "respuesta": "Jehová desea que nos comuniquemos con Él como un Padre amoroso.",
+      "cita": "Filipenses 4:6",
+      "categoria": "Conducta Cristiana"
+    },
+    {
+      "titulo": "¿Qué hará Dios por la humanidad?",
+      "respuesta": "Eliminará el sufrimiento y hará de la Tierra un paraíso.",
+      "cita": "Apocalipsis 21:3-4",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué propósito tiene la vida?",
+      "respuesta": "Conocer a Jehová y vivir para siempre en una Tierra paradisíaca.",
+      "cita": "Juan 17:3",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Quién es Satanás?",
+      "respuesta": "Un ángel rebelde que se convirtió en el enemigo de Dios.",
+      "cita": "Apocalipsis 12:9",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Cómo vemos el futuro según la Biblia?",
+      "respuesta": "Dios promete un mundo nuevo lleno de justicia.",
+      "cita": "2 Pedro 3:13",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué es el pecado?",
+      "respuesta": "Es una violación de la ley de Dios, heredada desde Adán.",
+      "cita": "Romanos 5:12",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Quién fue Adán?",
+      "respuesta": "El primer hombre creado por Dios. Su desobediencia trajo el pecado.",
+      "cita": "Génesis 2:7",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué es el alma según la Biblia?",
+      "respuesta": "El alma es la persona. No es inmortal ni sobrevive la muerte.",
+      "cita": "Ezequiel 18:4",
+      "categoria": "Debate Bíblico"
+    },
+    {
+      "titulo": "¿Qué sucede cuando alguien muere?",
+      "respuesta": "Deja de existir. No hay conciencia después de la muerte.",
+      "cita": "Eclesiastés 9:5,10",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Dónde están los muertos?",
+      "respuesta": "En el Seol o Hades, el sepulcro común. Esperan la resurrección.",
+      "cita": "Hechos 2:29,34",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué es el espíritu?",
+      "respuesta": "Es la fuerza de vida que Jehová da, no una entidad consciente.",
+      "cita": "Salmo 146:4",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Cómo debemos ver a Jesucristo?",
+      "respuesta": "Como el Hijo de Dios y nuestro Rey designado.",
+      "cita": "Lucas 1:32-33",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre la idolatría?",
+      "respuesta": "Jehová prohíbe adorar imágenes. Solo Él merece adoración.",
+      "cita": "Éxodo 20:4-5",
+      "categoria": "Conducta Cristiana"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre el infierno?",
+      "respuesta": "No es un lugar de tormento. Es la condición de los muertos.",
+      "cita": "Eclesiastés 9:10",
+      "categoria": "Debate Bíblico"
+    },
+    {
+      "titulo": "¿Es bíblica la doctrina de la Trinidad?",
+      "respuesta": "No. La Biblia enseña que Jehová es uno y Jesús es su Hijo.",
+      "cita": "Juan 14:28",
+      "categoria": "Debate Bíblico"
+    },
+    {
+      "titulo": "¿Quién gobierna el mundo actualmente?",
+      "respuesta": "Satanás es el gobernante temporal hasta que Jehová lo elimine.",
+      "cita": "2 Corintios 4:4",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": "¿Qué es el Armagedón?",
+      "respuesta": "La guerra final de Jehová contra los sistemas humanos injustos.",
+      "cita": "Apocalipsis 16:14,16",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué esperanza hay para la Tierra?",
+      "respuesta": "Será transformada en un paraíso para los justos.",
+      "cita": "Salmo 37:29",
+      "categoria": "Esperanza"
+    },
+    {
+      "titulo": "¿Qué es el bautismo cristiano?",
+      "respuesta": "Una muestra pública de dedicación a Jehová.",
+      "cita": "Mateo 28:19",
+      "categoria": "Conducta Cristiana"
+    },
+    {
+      "titulo": "¿Debemos participar en política?",
+      "respuesta": "No. Jesús dijo que sus discípulos no eran parte del mundo.",
+      "cita": "Juan 17:16",
+      "categoria": "Conducta Cristiana"
+    },
+    {
+      "titulo": "¿Se celebra la Navidad en la Biblia?",
+      "respuesta": "No. Sus orígenes son paganos y no fue ordenada por Jesús.",
+      "cita": "Mateo 2:1-12",
+      "categoria": "Debate Bíblico"
+    },
+    {
+      "titulo": "¿Qué dice la Biblia sobre la violencia?",
+      "respuesta": "Los cristianos deben ser pacíficos y no recurrir a la violencia.",
+      "cita": "Mateo 5:9",
+      "categoria": "Conducta Cristiana"
+    },
+    {
+      "titulo": "¿Está bien venerar a María?",
+      "respuesta": "No. Fue una sierva fiel, pero la adoración es solo a Jehová.",
+      "cita": "Lucas 1:38",
+      "categoria": "Debate Bíblico"
+    },
+    {
+      "titulo": "¿Qué enseña la Biblia sobre el uso de imágenes religiosas?",
+      "respuesta": "La adoración a imágenes está prohibida. Jehová es espíritu.",
+      "cita": "Isaías 42:8",
+      "categoria": "Conducta Cristiana"
+    }
+  ]
+}
