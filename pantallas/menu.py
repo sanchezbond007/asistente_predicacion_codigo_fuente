@@ -1,45 +1,51 @@
 from kivy.uix.screenmanager import Screen
 from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.button import Button
 from kivy.uix.label import Label
+from kivy.uix.button import Button
+import os, sys
+
+# Asegura que el proyecto vea la carpeta raíz correctamente
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from utils.traducciones import traducir as t  # ✅ correcto
 
 class PantallaMenu(Screen):
-    def __init__(self, **kwargs):
+    def __init__(self, idioma="es", navegar_callback=None, volver_callback=None, **kwargs):
         super().__init__(**kwargs)
-        layout = BoxLayout(orientation="vertical", spacing=10, padding=20)
+        self.idioma = idioma
+        self.navegar_callback = navegar_callback
+        self.volver_callback = volver_callback
 
-        layout.add_widget(Label(
-            text="===== Asistente de Predicación =====",
-            font_size=60,
-            size_hint_y=None,
-            height=90
-        ))
+        layout = BoxLayout(orientation='vertical', padding=30, spacing=20)
 
-        opciones = [
-            ("1. Ver sugerencias",       "sugerencias"),
-            ("2. Buscar tema",           "buscar"),
-            ("3. Ver por categoría",     "categorias"),
-            ("4. Programar recordatorio","recordatorio"),
-            ("5. Editar datos del contacto","editar_contacto"),
-            ("6. Enviar resumen digital","contacto"),  # abre la pantalla de contacto
-            ("7. Salir",                 "login"),
+        # Título principal
+        layout.add_widget(Label(text=t(self.idioma, "titulo"), font_size=28, size_hint_y=None, height=50))
+
+        # Botones de navegación
+        botones = [
+            ("login", "sugerencias"),
+            ("crear_usuario", "temas_profundos"),
+            ("actualizar", "buscar"),
         ]
 
-        for texto, destino in opciones:
-            btn = Button(text=texto, font_size=60, height=90)
-            btn.bind(on_press=lambda inst, dest=destino: self.cambiar_pantalla(dest))
+        for clave, destino in botones:
+            btn = Button(text=t(self.idioma, clave), size_hint_y=None, height=50)
+            btn.bind(on_press=lambda instance, d=destino: self.navegar(d))
             layout.add_widget(btn)
 
-        # Botón Volver adicional
-        btn_volver = Button(
-            text="Volver",
-            font_size=60,
-            height=90,
-            on_press=lambda *_: setattr(self.manager, "current", "login")
-        )
+        # Botón volver
+        btn_volver = Button(text="← " + t(self.idioma, "volver"), size_hint_y=None, height=50)
+        btn_volver.bind(on_press=self.volver)
         layout.add_widget(btn_volver)
 
         self.add_widget(layout)
 
-    def cambiar_pantalla(self, nombre_pantalla):
-        self.manager.current = nombre_pantalla
+    def navegar(self, destino):
+        if self.navegar_callback:
+            self.navegar_callback(destino)
+
+    def volver(self, instance):
+        if self.volver_callback:
+            self.volver_callback()

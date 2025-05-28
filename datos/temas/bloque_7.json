@@ -1,186 +1,366 @@
 {
   "bloque": 7,
-  "descripcion": "Este archivo contiene los temas del BLOQUE 7 de un total de 180 temas bíblicos con preguntas y respuestas de acuerdo con las enseñanzas de los Testigos de Jehová.",
+  "descripcion": "Bloque 7 con 30 temas bíblicos bilingües.",
   "temas": [
     {
-      "titulo": "¿Qué es la fe verdadera?",
-      "respuesta": "Es la fe basada en el conocimiento exacto de la Palabra de Dios y se demuestra con obras.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la adoración verdadera?",
+        "en": "Qué enseña la biblia sobre la adoración verdadera"
+      },
+      "respuesta": {
+        "es": "Debe ser con espíritu y verdad.",
+        "en": "Debe ser con espíritu y verdad."
+      },
+      "cita": "Juan 4:23-24",
+      "categoria": "Doctrina"
+    },
+    {
+      "titulo": {
+        "es": "¿Qué es la fe verdadera?",
+        "en": "Qué es la fe verdadera"
+      },
+      "respuesta": {
+        "es": "Es la fe basada en el conocimiento exacto de la Palabra de Dios y se demuestra con obras.",
+        "en": "Es la fe basada en el conocimiento exacto de la Palabra de Dios y se demuestra con obras."
+      },
       "cita": "Hebreos 11:1",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué valor tiene la sabiduría bíblica?",
-      "respuesta": "Vale más que el oro porque guía nuestras decisiones y nos protege del mal.",
+      "titulo": {
+        "es": "¿Qué valor tiene la sabiduría bíblica?",
+        "en": "Qué valor tiene la sabiduría bíblica"
+      },
+      "respuesta": {
+        "es": "Vale más que el oro porque guía nuestras decisiones y nos protege del mal.",
+        "en": "Vale más que el oro porque guía nuestras decisiones y nos protege del mal."
+      },
       "cita": "Proverbios 4:7",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cómo muestra Jehová su misericordia?",
-      "respuesta": "Jehová perdona con generosidad a los que se arrepienten sinceramente.",
+      "titulo": {
+        "es": "¿Cómo muestra Jehová su misericordia?",
+        "en": "Cómo muestra jehová su misericordia"
+      },
+      "respuesta": {
+        "es": "Jehová perdona con generosidad a los que se arrepienten sinceramente.",
+        "en": "Jehová perdona con generosidad a los que se arrepienten sinceramente."
+      },
       "cita": "Isaías 55:7",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Por qué debemos ser modestos?",
-      "respuesta": "Porque la modestia protege nuestras relaciones con Dios y con otros.",
+      "titulo": {
+        "es": "¿Por qué debemos ser modestos?",
+        "en": "Por qué debemos ser modestos"
+      },
+      "respuesta": {
+        "es": "Porque la modestia protege nuestras relaciones con Dios y con otros.",
+        "en": "Porque la modestia protege nuestras relaciones con Dios y con otros."
+      },
       "cita": "Miqueas 6:8",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el orgullo?",
-      "respuesta": "Dios se opone a los orgullosos pero da su favor a los humildes.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el orgullo?",
+        "en": "Qué enseña la biblia sobre el orgullo"
+      },
+      "respuesta": {
+        "es": "Dios se opone a los orgullosos pero da su favor a los humildes.",
+        "en": "Dios se opone a los orgullosos pero da su favor a los humildes."
+      },
       "cita": "Proverbios 16:18",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué papel tiene la conciencia en nuestras decisiones?",
-      "respuesta": "Nos ayuda a hacer lo correcto cuando está educada por la Biblia.",
+      "titulo": {
+        "es": "¿Qué papel tiene la conciencia en nuestras decisiones?",
+        "en": "Qué papel tiene la conciencia en nuestras decisiones"
+      },
+      "respuesta": {
+        "es": "Nos ayuda a hacer lo correcto cuando está educada por la Biblia.",
+        "en": "Nos ayuda a hacer lo correcto cuando está educada por la Biblia."
+      },
       "cita": "Hebreos 5:14",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cuál es el propósito de la disciplina de Dios?",
-      "respuesta": "Corregirnos por amor para que podamos obtener vida eterna.",
+      "titulo": {
+        "es": "¿Cuál es el propósito de la disciplina de Dios?",
+        "en": "Cuál es el propósito de la disciplina de dios"
+      },
+      "respuesta": {
+        "es": "Corregirnos por amor para que podamos obtener vida eterna.",
+        "en": "Corregirnos por amor para que podamos obtener vida eterna."
+      },
       "cita": "Hebreos 12:6",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Debemos tener miedo del Diablo?",
-      "respuesta": "No, si permanecemos cerca de Dios, Satanás huirá de nosotros.",
+      "titulo": {
+        "es": "¿Debemos tener miedo del Diablo?",
+        "en": "Debemos tener miedo del diablo"
+      },
+      "respuesta": {
+        "es": "No, si permanecemos cerca de Dios, Satanás huirá de nosotros.",
+        "en": "No, si permanecemos cerca de Dios, Satanás huirá de nosotros."
+      },
       "cita": "Santiago 4:7",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Es el hombre superior a los animales?",
-      "respuesta": "Sí, porque fue creado a imagen de Dios con capacidad espiritual y moral.",
+      "titulo": {
+        "es": "¿Es el hombre superior a los animales?",
+        "en": "Es el hombre superior a los animales"
+      },
+      "respuesta": {
+        "es": "Sí, porque fue creado a imagen de Dios con capacidad espiritual y moral.",
+        "en": "Sí, porque fue creado a imagen de Dios con capacidad espiritual y moral."
+      },
       "cita": "Génesis 1:26",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Por qué no debemos vengarnos?",
-      "respuesta": "La venganza le pertenece a Jehová, no a nosotros.",
+      "titulo": {
+        "es": "¿Por qué no debemos vengarnos?",
+        "en": "Por qué no debemos vengarnos"
+      },
+      "respuesta": {
+        "es": "La venganza le pertenece a Jehová, no a nosotros.",
+        "en": "La venganza le pertenece a Jehová, no a nosotros."
+      },
       "cita": "Romanos 12:19",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Deben los cristianos usar lenguaje limpio?",
-      "respuesta": "Sí, porque las malas palabras corrompen y no agradan a Dios.",
+      "titulo": {
+        "es": "¿Deben los cristianos usar lenguaje limpio?",
+        "en": "Deben los cristianos usar lenguaje limpio"
+      },
+      "respuesta": {
+        "es": "Sí, porque las malas palabras corrompen y no agradan a Dios.",
+        "en": "Sí, porque las malas palabras corrompen y no agradan a Dios."
+      },
       "cita": "Efesios 4:29",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Es bíblico el arrepentimiento?",
-      "respuesta": "Sí, el arrepentimiento sincero es necesario para recibir el perdón de Dios.",
+      "titulo": {
+        "es": "¿Es bíblico el arrepentimiento?",
+        "en": "Es bíblico el arrepentimiento"
+      },
+      "respuesta": {
+        "es": "Sí, el arrepentimiento sincero es necesario para recibir el perdón de Dios.",
+        "en": "Sí, el arrepentimiento sincero es necesario para recibir el perdón de Dios."
+      },
       "cita": "Hechos 3:19",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Cómo se demuestra la paciencia cristiana?",
-      "respuesta": "Al soportar pruebas sin perder la fe y seguir confiando en Jehová.",
+      "titulo": {
+        "es": "¿Cómo se demuestra la paciencia cristiana?",
+        "en": "Cómo se demuestra la paciencia cristiana"
+      },
+      "respuesta": {
+        "es": "Al soportar pruebas sin perder la fe y seguir confiando en Jehová.",
+        "en": "Al soportar pruebas sin perder la fe y seguir confiando en Jehová."
+      },
       "cita": "Romanos 12:12",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre la riqueza?",
-      "respuesta": "La riqueza no garantiza felicidad ni salvación; debemos ser ricos para con Dios.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre la riqueza?",
+        "en": "Qué dice la biblia sobre la riqueza"
+      },
+      "respuesta": {
+        "es": "La riqueza no garantiza felicidad ni salvación; debemos ser ricos para con Dios.",
+        "en": "La riqueza no garantiza felicidad ni salvación; debemos ser ricos para con Dios."
+      },
       "cita": "Lucas 12:15",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué es la esperanza cristiana?",
-      "respuesta": "La esperanza de vida eterna en un paraíso en la Tierra bajo el Reino de Dios.",
+      "titulo": {
+        "es": "¿Qué es la esperanza cristiana?",
+        "en": "Qué es la esperanza cristiana"
+      },
+      "respuesta": {
+        "es": "La esperanza de vida eterna en un paraíso en la Tierra bajo el Reino de Dios.",
+        "en": "La esperanza de vida eterna en un paraíso en la Tierra bajo el Reino de Dios."
+      },
       "cita": "Juan 17:3",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Por qué debemos ser hospitalarios?",
-      "respuesta": "Porque es una muestra de amor y generosidad cristiana.",
+      "titulo": {
+        "es": "¿Por qué debemos ser hospitalarios?",
+        "en": "Por qué debemos ser hospitalarios"
+      },
+      "respuesta": {
+        "es": "Porque es una muestra de amor y generosidad cristiana.",
+        "en": "Porque es una muestra de amor y generosidad cristiana."
+      },
       "cita": "Hebreos 13:2",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cómo podemos luchar contra la ansiedad?",
-      "respuesta": "Orando a Dios y confiando en su poder para ayudarnos.",
+      "titulo": {
+        "es": "¿Cómo podemos luchar contra la ansiedad?",
+        "en": "Cómo podemos luchar contra la ansiedad"
+      },
+      "respuesta": {
+        "es": "Orando a Dios y confiando en su poder para ayudarnos.",
+        "en": "Orando a Dios y confiando en su poder para ayudarnos."
+      },
       "cita": "Filipenses 4:6-7",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cómo debemos tratar a los enemigos?",
-      "respuesta": "Con amor y sin deseo de venganza, como enseñó Jesús.",
+      "titulo": {
+        "es": "¿Cómo debemos tratar a los enemigos?",
+        "en": "Cómo debemos tratar a los enemigos"
+      },
+      "respuesta": {
+        "es": "Con amor y sin deseo de venganza, como enseñó Jesús.",
+        "en": "Con amor y sin deseo de venganza, como enseñó Jesús."
+      },
       "cita": "Mateo 5:44",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué muestra que estamos en los últimos días?",
-      "respuesta": "Las señales como guerras, desobediencia y falta de amor que profetizó la Biblia.",
+      "titulo": {
+        "es": "¿Qué muestra que estamos en los últimos días?",
+        "en": "Qué muestra que estamos en los últimos días"
+      },
+      "respuesta": {
+        "es": "Las señales como guerras, desobediencia y falta de amor que profetizó la Biblia.",
+        "en": "Las señales como guerras, desobediencia y falta de amor que profetizó la Biblia."
+      },
       "cita": "2 Timoteo 3:1-5",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Cómo usar bien nuestro tiempo?",
-      "respuesta": "Dedicando tiempo a cosas espirituales y productivas.",
+      "titulo": {
+        "es": "¿Cómo usar bien nuestro tiempo?",
+        "en": "Cómo usar bien nuestro tiempo"
+      },
+      "respuesta": {
+        "es": "Dedicando tiempo a cosas espirituales y productivas.",
+        "en": "Dedicando tiempo a cosas espirituales y productivas."
+      },
       "cita": "Efesios 5:15-16",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué significa amar a Dios?",
-      "respuesta": "Guardar sus mandamientos y vivir conforme a su voluntad.",
+      "titulo": {
+        "es": "¿Qué significa amar a Dios?",
+        "en": "Qué significa amar a dios"
+      },
+      "respuesta": {
+        "es": "Guardar sus mandamientos y vivir conforme a su voluntad.",
+        "en": "Guardar sus mandamientos y vivir conforme a su voluntad."
+      },
       "cita": "1 Juan 5:3",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Puede Dios consolarnos en la tristeza?",
-      "respuesta": "Sí, mediante su Palabra, espíritu santo y su pueblo.",
+      "titulo": {
+        "es": "¿Puede Dios consolarnos en la tristeza?",
+        "en": "Puede dios consolarnos en la tristeza"
+      },
+      "respuesta": {
+        "es": "Sí, mediante su Palabra, espíritu santo y su pueblo.",
+        "en": "Sí, mediante su Palabra, espíritu santo y su pueblo."
+      },
       "cita": "2 Corintios 1:3-4",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué efecto tiene la oración en nuestra vida?",
-      "respuesta": "Nos fortalece espiritualmente y nos acerca más a Dios.",
+      "titulo": {
+        "es": "¿Qué efecto tiene la oración en nuestra vida?",
+        "en": "Qué efecto tiene la oración en nuestra vida"
+      },
+      "respuesta": {
+        "es": "Nos fortalece espiritualmente y nos acerca más a Dios.",
+        "en": "Nos fortalece espiritualmente y nos acerca más a Dios."
+      },
       "cita": "1 Tesalonicenses 5:17",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Es el sufrimiento castigo de Dios?",
-      "respuesta": "No necesariamente. A veces es prueba de fe o consecuencia del pecado humano.",
+      "titulo": {
+        "es": "¿Es el sufrimiento castigo de Dios?",
+        "en": "Es el sufrimiento castigo de dios"
+      },
+      "respuesta": {
+        "es": "No necesariamente. A veces es prueba de fe o consecuencia del pecado humano.",
+        "en": "No necesariamente. A veces es prueba de fe o consecuencia del pecado humano."
+      },
       "cita": "Santiago 1:2-4",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué actitud agrada a Dios?",
-      "respuesta": "La humildad, la obediencia y el temor reverente.",
+      "titulo": {
+        "es": "¿Qué actitud agrada a Dios?",
+        "en": "Qué actitud agrada a dios"
+      },
+      "respuesta": {
+        "es": "La humildad, la obediencia y el temor reverente.",
+        "en": "La humildad, la obediencia y el temor reverente."
+      },
       "cita": "Isaías 66:2",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Debemos respetar a nuestros padres?",
-      "respuesta": "Sí, es un mandato con promesa de bendición.",
+      "titulo": {
+        "es": "¿Debemos respetar a nuestros padres?",
+        "en": "Debemos respetar a nuestros padres"
+      },
+      "respuesta": {
+        "es": "Sí, es un mandato con promesa de bendición.",
+        "en": "Sí, es un mandato con promesa de bendición."
+      },
       "cita": "Efesios 6:1-3",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué es la verdadera religión?",
-      "respuesta": "La que se basa en la verdad bíblica y se demuestra con amor y obediencia.",
+      "titulo": {
+        "es": "¿Qué es la verdadera religión?",
+        "en": "Qué es la verdadera religión"
+      },
+      "respuesta": {
+        "es": "La que se basa en la verdad bíblica y se demuestra con amor y obediencia.",
+        "en": "La que se basa en la verdad bíblica y se demuestra con amor y obediencia."
+      },
       "cita": "Santiago 1:27",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Puede Dios perdonar cualquier pecado?",
-      "respuesta": "Sí, excepto el pecado deliberado contra el espíritu santo.",
+      "titulo": {
+        "es": "¿Puede Dios perdonar cualquier pecado?",
+        "en": "Puede dios perdonar cualquier pecado"
+      },
+      "respuesta": {
+        "es": "Sí, excepto el pecado deliberado contra el espíritu santo.",
+        "en": "Sí, excepto el pecado deliberado contra el espíritu santo."
+      },
       "cita": "Mateo 12:31",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué valor tiene el servicio a Dios?",
-      "respuesta": "Nos hace felices, nos da propósito y nos prepara para la vida eterna.",
+      "titulo": {
+        "es": "¿Qué valor tiene el servicio a Dios?",
+        "en": "Qué valor tiene el servicio a dios"
+      },
+      "respuesta": {
+        "es": "Nos hace felices, nos da propósito y nos prepara para la vida eterna.",
+        "en": "Nos hace felices, nos da propósito y nos prepara para la vida eterna."
+      },
       "cita": "1 Corintios 15:58",
       "categoria": "Doctrina"
-    },
-    {
-      "titulo": "¿Qué pasará con los malvados?",
-      "respuesta": "Serán eliminados para siempre del futuro paraíso prometido por Dios.",
-      "cita": "Salmo 37:10",
-      "categoria": "Esperanza"
     }
   ]
 }

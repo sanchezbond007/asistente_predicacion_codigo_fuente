@@ -1,184 +1,364 @@
 {
   "bloque": 2,
-  "descripcion": "Este archivo contiene los temas del BLOQUE 2 con títulos reales y únicos, alineados con las enseñanzas de los Testigos de Jehová.",
+  "descripcion": "Bloque 2 con 30 temas bíblicos bilingües.",
   "temas": [
     {
-      "titulo": "¿Qué significa tener fe?",
-      "respuesta": "Es confiar plenamente en las promesas de Jehová, aunque no las veamos aún.",
+      "titulo": {
+        "es": "¿Qué significa tener fe?",
+        "en": "Qué significa tener fe"
+      },
+      "respuesta": {
+        "es": "Es confiar plenamente en las promesas de Jehová, aunque no las veamos aún.",
+        "en": "Es confiar plenamente en las promesas de Jehová, aunque no las veamos aún."
+      },
       "cita": "Hebreos 11:1",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Por qué estudiar la Biblia regularmente?",
-      "respuesta": "Nos ayuda a conocer mejor a Dios, fortalecer la fe y tomar buenas decisiones.",
+      "titulo": {
+        "es": "¿Por qué estudiar la Biblia regularmente?",
+        "en": "Por qué estudiar la biblia regularmente"
+      },
+      "respuesta": {
+        "es": "Nos ayuda a conocer mejor a Dios, fortalecer la fe y tomar buenas decisiones.",
+        "en": "Nos ayuda a conocer mejor a Dios, fortalecer la fe y tomar buenas decisiones."
+      },
       "cita": "Salmo 1:1-2",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué es la conciencia y cómo educarla?",
-      "respuesta": "Es un sentido moral que debe ser guiado por principios bíblicos.",
+      "titulo": {
+        "es": "¿Qué es la conciencia y cómo educarla?",
+        "en": "Qué es la conciencia y cómo educarla"
+      },
+      "respuesta": {
+        "es": "Es un sentido moral que debe ser guiado por principios bíblicos.",
+        "en": "Es un sentido moral que debe ser guiado por principios bíblicos."
+      },
       "cita": "Romanos 2:15",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Por qué obedecer a Jehová?",
-      "respuesta": "Porque es nuestro Creador y su guía siempre es para nuestro bien.",
+      "titulo": {
+        "es": "¿Por qué obedecer a Jehová?",
+        "en": "Por qué obedecer a jehová"
+      },
+      "respuesta": {
+        "es": "Porque es nuestro Creador y su guía siempre es para nuestro bien.",
+        "en": "Porque es nuestro Creador y su guía siempre es para nuestro bien."
+      },
       "cita": "Isaías 48:17-18",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué es el nuevo mundo prometido por Dios?",
-      "respuesta": "Es la Tierra transformada en un paraíso donde reinará la justicia.",
+      "titulo": {
+        "es": "¿Qué es el nuevo mundo prometido por Dios?",
+        "en": "Qué es el nuevo mundo prometido por dios"
+      },
+      "respuesta": {
+        "es": "Es la Tierra transformada en un paraíso donde reinará la justicia.",
+        "en": "Es la Tierra transformada en un paraíso donde reinará la justicia."
+      },
       "cita": "2 Pedro 3:13",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Por qué debemos predicar?",
-      "respuesta": "Es un mandato de Jesús y una forma de mostrar amor al prójimo.",
+      "titulo": {
+        "es": "¿Por qué debemos predicar?",
+        "en": "Por qué debemos predicar"
+      },
+      "respuesta": {
+        "es": "Es un mandato de Jesús y una forma de mostrar amor al prójimo.",
+        "en": "Es un mandato de Jesús y una forma de mostrar amor al prójimo."
+      },
       "cita": "Mateo 24:14",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué beneficios trae servir a Jehová?",
-      "respuesta": "Paz interior, esperanza segura y una relación estrecha con Dios.",
+      "titulo": {
+        "es": "¿Qué beneficios trae servir a Jehová?",
+        "en": "Qué beneficios trae servir a jehová"
+      },
+      "respuesta": {
+        "es": "Paz interior, esperanza segura y una relación estrecha con Dios.",
+        "en": "Paz interior, esperanza segura y una relación estrecha con Dios."
+      },
       "cita": "Salmo 119:165",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Cómo demostrar que amamos a Dios?",
-      "respuesta": "Guardando sus mandamientos y viviendo según sus normas.",
+      "titulo": {
+        "es": "¿Cómo demostrar que amamos a Dios?",
+        "en": "Cómo demostrar que amamos a dios"
+      },
+      "respuesta": {
+        "es": "Guardando sus mandamientos y viviendo según sus normas.",
+        "en": "Guardando sus mandamientos y viviendo según sus normas."
+      },
       "cita": "1 Juan 5:3",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué actitud tener ante las pruebas?",
-      "respuesta": "Confiar en Jehová, quien nos da fuerzas para soportarlas.",
+      "titulo": {
+        "es": "¿Qué actitud tener ante las pruebas?",
+        "en": "Qué actitud tener ante las pruebas"
+      },
+      "respuesta": {
+        "es": "Confiar en Jehová, quien nos da fuerzas para soportarlas.",
+        "en": "Confiar en Jehová, quien nos da fuerzas para soportarlas."
+      },
       "cita": "1 Corintios 10:13",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el matrimonio?",
-      "respuesta": "Es una unión sagrada entre un hombre y una mujer, basada en el amor y el respeto.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el matrimonio?",
+        "en": "Qué enseña la biblia sobre el matrimonio"
+      },
+      "respuesta": {
+        "es": "Es una unión sagrada entre un hombre y una mujer, basada en el amor y el respeto.",
+        "en": "Es una unión sagrada entre un hombre y una mujer, basada en el amor y el respeto."
+      },
       "cita": "Génesis 2:24",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Quiénes son los 144,000?",
-      "respuesta": "Son los ungidos que gobernarán con Cristo en los cielos.",
+      "titulo": {
+        "es": "¿Quiénes son los 144,000?",
+        "en": "Quiénes son los 144,000"
+      },
+      "respuesta": {
+        "es": "Son los ungidos que gobernarán con Cristo en los cielos.",
+        "en": "Son los ungidos que gobernarán con Cristo en los cielos."
+      },
       "cita": "Apocalipsis 14:1,3",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Debemos temer a los espíritus o demonios?",
-      "respuesta": "No, Jehová es más poderoso y puede protegernos.",
+      "titulo": {
+        "es": "¿Debemos temer a los espíritus o demonios?",
+        "en": "Debemos temer a los espíritus o demonios"
+      },
+      "respuesta": {
+        "es": "No, Jehová es más poderoso y puede protegernos.",
+        "en": "No, Jehová es más poderoso y puede protegernos."
+      },
       "cita": "Santiago 4:7",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Cómo fortalecer nuestra fe?",
-      "respuesta": "Estudiando la Biblia, orando y reuniéndonos con otros cristianos.",
+      "titulo": {
+        "es": "¿Cómo fortalecer nuestra fe?",
+        "en": "Cómo fortalecer nuestra fe"
+      },
+      "respuesta": {
+        "es": "Estudiando la Biblia, orando y reuniéndonos con otros cristianos.",
+        "en": "Estudiando la Biblia, orando y reuniéndonos con otros cristianos."
+      },
       "cita": "Romanos 10:17",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Cuál es el propósito de la oración?",
-      "respuesta": "Hablar con Jehová, expresarle nuestros sentimientos y buscar su guía.",
+      "titulo": {
+        "es": "¿Cuál es el propósito de la oración?",
+        "en": "Cuál es el propósito de la oración"
+      },
+      "respuesta": {
+        "es": "Hablar con Jehová, expresarle nuestros sentimientos y buscar su guía.",
+        "en": "Hablar con Jehová, expresarle nuestros sentimientos y buscar su guía."
+      },
       "cita": "Filipenses 4:6-7",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el dinero?",
-      "respuesta": "No debe ser nuestra prioridad. Debemos usarlo con sabiduría y generosidad.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el dinero?",
+        "en": "Qué enseña la biblia sobre el dinero"
+      },
+      "respuesta": {
+        "es": "No debe ser nuestra prioridad. Debemos usarlo con sabiduría y generosidad.",
+        "en": "No debe ser nuestra prioridad. Debemos usarlo con sabiduría y generosidad."
+      },
       "cita": "1 Timoteo 6:9-10",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué es el espíritu santo?",
-      "respuesta": "Es la fuerza activa de Dios, que Él usa para cumplir su voluntad.",
+      "titulo": {
+        "es": "¿Qué es el espíritu santo?",
+        "en": "Qué es el espíritu santo"
+      },
+      "respuesta": {
+        "es": "Es la fuerza activa de Dios, que Él usa para cumplir su voluntad.",
+        "en": "Es la fuerza activa de Dios, que Él usa para cumplir su voluntad."
+      },
       "cita": "Hechos 1:8",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Cómo manejar el enojo según la Biblia?",
-      "respuesta": "Siendo pacientes, evitando palabras ofensivas y buscando la paz.",
+      "titulo": {
+        "es": "¿Cómo manejar el enojo según la Biblia?",
+        "en": "Cómo manejar el enojo según la biblia"
+      },
+      "respuesta": {
+        "es": "Siendo pacientes, evitando palabras ofensivas y buscando la paz.",
+        "en": "Siendo pacientes, evitando palabras ofensivas y buscando la paz."
+      },
       "cita": "Proverbios 15:1",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre la amistad?",
-      "respuesta": "Debemos escoger amigos que amen a Jehová y nos ayuden a hacer lo correcto.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la amistad?",
+        "en": "Qué enseña la biblia sobre la amistad"
+      },
+      "respuesta": {
+        "es": "Debemos escoger amigos que amen a Jehová y nos ayuden a hacer lo correcto.",
+        "en": "Debemos escoger amigos que amen a Jehová y nos ayuden a hacer lo correcto."
+      },
       "cita": "Proverbios 13:20",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Quiénes fueron los profetas de la Biblia?",
-      "respuesta": "Hombres usados por Dios para comunicar su voluntad.",
+      "titulo": {
+        "es": "¿Quiénes fueron los profetas de la Biblia?",
+        "en": "Quiénes fueron los profetas de la biblia"
+      },
+      "respuesta": {
+        "es": "Hombres usados por Dios para comunicar su voluntad.",
+        "en": "Hombres usados por Dios para comunicar su voluntad."
+      },
       "cita": "Hebreos 1:1",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué papel tienen los ancianos en la congregación?",
-      "respuesta": "Cuidan espiritualmente del rebaño como pastores amorosos.",
+      "titulo": {
+        "es": "¿Qué papel tienen los ancianos en la congregación?",
+        "en": "Qué papel tienen los ancianos en la congregación"
+      },
+      "respuesta": {
+        "es": "Cuidan espiritualmente del rebaño como pastores amorosos.",
+        "en": "Cuidan espiritualmente del rebaño como pastores amorosos."
+      },
       "cita": "1 Pedro 5:2-3",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cuál es el papel de la mujer cristiana?",
-      "respuesta": "Ser temerosa de Dios, sabia, trabajadora y respetuosa.",
+      "titulo": {
+        "es": "¿Cuál es el papel de la mujer cristiana?",
+        "en": "Cuál es el papel de la mujer cristiana"
+      },
+      "respuesta": {
+        "es": "Ser temerosa de Dios, sabia, trabajadora y respetuosa.",
+        "en": "Ser temerosa de Dios, sabia, trabajadora y respetuosa."
+      },
       "cita": "Proverbios 31:10-31",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué es el libre albedrío?",
-      "respuesta": "La capacidad que Dios nos dio para escoger entre el bien y el mal.",
+      "titulo": {
+        "es": "¿Qué es el libre albedrío?",
+        "en": "Qué es el libre albedrío"
+      },
+      "respuesta": {
+        "es": "La capacidad que Dios nos dio para escoger entre el bien y el mal.",
+        "en": "La capacidad que Dios nos dio para escoger entre el bien y el mal."
+      },
       "cita": "Deuteronomio 30:19",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Dios permite que suframos?",
-      "respuesta": "Sí, por un tiempo, pero siempre con un propósito y límites.",
+      "titulo": {
+        "es": "¿Dios permite que suframos?",
+        "en": "Dios permite que suframos"
+      },
+      "respuesta": {
+        "es": "Sí, por un tiempo, pero siempre con un propósito y límites.",
+        "en": "Sí, por un tiempo, pero siempre con un propósito y límites."
+      },
       "cita": "Job 1:12",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Cómo podemos acercarnos a Dios?",
-      "respuesta": "Buscándolo sinceramente mediante la oración y el estudio.",
+      "titulo": {
+        "es": "¿Cómo podemos acercarnos a Dios?",
+        "en": "Cómo podemos acercarnos a dios"
+      },
+      "respuesta": {
+        "es": "Buscándolo sinceramente mediante la oración y el estudio.",
+        "en": "Buscándolo sinceramente mediante la oración y el estudio."
+      },
       "cita": "Santiago 4:8",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre la humildad?",
-      "respuesta": "Es vital para agradar a Dios y llevarnos bien con los demás.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la humildad?",
+        "en": "Qué enseña la biblia sobre la humildad"
+      },
+      "respuesta": {
+        "es": "Es vital para agradar a Dios y llevarnos bien con los demás.",
+        "en": "Es vital para agradar a Dios y llevarnos bien con los demás."
+      },
       "cita": "Miqueas 6:8",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué significa ser limpio moralmente?",
-      "respuesta": "Rechazar toda inmoralidad sexual y pensamientos impuros.",
+      "titulo": {
+        "es": "¿Qué significa ser limpio moralmente?",
+        "en": "Qué significa ser limpio moralmente"
+      },
+      "respuesta": {
+        "es": "Rechazar toda inmoralidad sexual y pensamientos impuros.",
+        "en": "Rechazar toda inmoralidad sexual y pensamientos impuros."
+      },
       "cita": "1 Tesalonicenses 4:3-5",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el perdón?",
-      "respuesta": "Debemos perdonar de corazón, como Jehová nos perdona a nosotros.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el perdón?",
+        "en": "Qué enseña la biblia sobre el perdón"
+      },
+      "respuesta": {
+        "es": "Debemos perdonar de corazón, como Jehová nos perdona a nosotros.",
+        "en": "Debemos perdonar de corazón, como Jehová nos perdona a nosotros."
+      },
       "cita": "Mateo 6:14-15",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Por qué debemos ser honestos?",
-      "respuesta": "Porque Jehová detesta el engaño y ama la verdad.",
+      "titulo": {
+        "es": "¿Por qué debemos ser honestos?",
+        "en": "Por qué debemos ser honestos"
+      },
+      "respuesta": {
+        "es": "Porque Jehová detesta el engaño y ama la verdad.",
+        "en": "Porque Jehová detesta el engaño y ama la verdad."
+      },
       "cita": "Proverbios 12:22",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cómo mantener la esperanza en tiempos difíciles?",
-      "respuesta": "Recordando las promesas de Dios y apoyándonos en la congregación.",
+      "titulo": {
+        "es": "¿Cómo mantener la esperanza en tiempos difíciles?",
+        "en": "Cómo mantener la esperanza en tiempos difíciles"
+      },
+      "respuesta": {
+        "es": "Recordando las promesas de Dios y apoyándonos en la congregación.",
+        "en": "Recordando las promesas de Dios y apoyándonos en la congregación."
+      },
       "cita": "Hebreos 10:23-25",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué espera Jehová de los jóvenes?",
-      "respuesta": "Que lo recuerden y lo sirvan desde su juventud.",
+      "titulo": {
+        "es": "¿Qué espera Jehová de los jóvenes?",
+        "en": "Qué espera jehová de los jóvenes"
+      },
+      "respuesta": {
+        "es": "Que lo recuerden y lo sirvan desde su juventud.",
+        "en": "Que lo recuerden y lo sirvan desde su juventud."
+      },
       "cita": "Eclesiastés 12:1",
       "categoria": "Conducta"
     }

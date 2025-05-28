@@ -1,193 +1,366 @@
-
 {
   "bloque": 6,
-  "descripcion": "Este archivo contiene los temas del BLOQUE 6 de un total de 180 temas bíblicos con preguntas y respuestas de acuerdo con las enseñanzas de los Testigos de Jehová.",
+  "descripcion": "Bloque 6 con 30 temas bíblicos bilingües.",
   "temas": [
     {
-      "titulo": "¿Por qué debemos leer la Biblia todos los días?",
-      "respuesta": "La lectura diaria fortalece nuestra fe y nos guía en la vida.",
+      "titulo": {
+        "es": "¿Por qué debemos leer la Biblia todos los días?",
+        "en": "Por qué debemos leer la biblia todos los días"
+      },
+      "respuesta": {
+        "es": "La lectura diaria fortalece nuestra fe y nos guía en la vida.",
+        "en": "La lectura diaria fortalece nuestra fe y nos guía en la vida."
+      },
       "cita": "Salmo 1:1-2",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué esperanza ofrece la Biblia a quienes han perdido a un ser querido?",
-      "respuesta": "Promete la resurrección de los muertos.",
+      "titulo": {
+        "es": "¿Qué esperanza ofrece la Biblia a quienes han perdido a un ser querido?",
+        "en": "Qué esperanza ofrece la biblia a quienes han perdido a un ser querido"
+      },
+      "respuesta": {
+        "es": "Promete la resurrección de los muertos.",
+        "en": "Promete la resurrección de los muertos."
+      },
       "cita": "Juan 5:28-29",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre la humildad?",
-      "respuesta": "Jehová favorece a los humildes y se opone a los orgullosos.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre la humildad?",
+        "en": "Qué dice la biblia sobre la humildad"
+      },
+      "respuesta": {
+        "es": "Jehová favorece a los humildes y se opone a los orgullosos.",
+        "en": "Jehová favorece a los humildes y se opone a los orgullosos."
+      },
       "cita": "Santiago 4:6",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cómo muestra Jehová su amor por la humanidad?",
-      "respuesta": "Dio a su Hijo para que tengamos vida eterna.",
+      "titulo": {
+        "es": "¿Cómo muestra Jehová su amor por la humanidad?",
+        "en": "Cómo muestra jehová su amor por la humanidad"
+      },
+      "respuesta": {
+        "es": "Dio a su Hijo para que tengamos vida eterna.",
+        "en": "Dio a su Hijo para que tengamos vida eterna."
+      },
       "cita": "Juan 3:16",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el uso del tiempo?",
-      "respuesta": "Debemos usar bien nuestro tiempo porque los días son malos.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el uso del tiempo?",
+        "en": "Qué enseña la biblia sobre el uso del tiempo"
+      },
+      "respuesta": {
+        "es": "Debemos usar bien nuestro tiempo porque los días son malos.",
+        "en": "Debemos usar bien nuestro tiempo porque los días son malos."
+      },
       "cita": "Efesios 5:15-16",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre el materialismo?",
-      "respuesta": "No podemos servir a Dios y a las riquezas.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre el materialismo?",
+        "en": "Qué dice la biblia sobre el materialismo"
+      },
+      "respuesta": {
+        "es": "No podemos servir a Dios y a las riquezas.",
+        "en": "No podemos servir a Dios y a las riquezas."
+      },
       "cita": "Mateo 6:24",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué actitud debemos tener durante las pruebas?",
-      "respuesta": "Debemos mantenernos firmes y confiar en Jehová.",
+      "titulo": {
+        "es": "¿Qué actitud debemos tener durante las pruebas?",
+        "en": "Qué actitud debemos tener durante las pruebas"
+      },
+      "respuesta": {
+        "es": "Debemos mantenernos firmes y confiar en Jehová.",
+        "en": "Debemos mantenernos firmes y confiar en Jehová."
+      },
       "cita": "Santiago 1:12",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Cómo debemos tratar a los demás según la Biblia?",
-      "respuesta": "Como queremos que nos traten a nosotros.",
+      "titulo": {
+        "es": "¿Cómo debemos tratar a los demás según la Biblia?",
+        "en": "Cómo debemos tratar a los demás según la biblia"
+      },
+      "respuesta": {
+        "es": "Como queremos que nos traten a nosotros.",
+        "en": "Como queremos que nos traten a nosotros."
+      },
       "cita": "Mateo 7:12",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre el lenguaje ofensivo?",
-      "respuesta": "Nuestra palabra debe ser siempre agradable y edificante.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre el lenguaje ofensivo?",
+        "en": "Qué dice la biblia sobre el lenguaje ofensivo"
+      },
+      "respuesta": {
+        "es": "Nuestra palabra debe ser siempre agradable y edificante.",
+        "en": "Nuestra palabra debe ser siempre agradable y edificante."
+      },
       "cita": "Efesios 4:29",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el temor a Dios?",
-      "respuesta": "El temor de Jehová es el principio de la sabiduría.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el temor a Dios?",
+        "en": "Qué enseña la biblia sobre el temor a dios"
+      },
+      "respuesta": {
+        "es": "El temor de Jehová es el principio de la sabiduría.",
+        "en": "El temor de Jehová es el principio de la sabiduría."
+      },
       "cita": "Proverbios 9:10",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué propósito tiene el Reino de Dios?",
-      "respuesta": "Acabar con la maldad y traer bendiciones eternas.",
+      "titulo": {
+        "es": "¿Qué propósito tiene el Reino de Dios?",
+        "en": "Qué propósito tiene el reino de dios"
+      },
+      "respuesta": {
+        "es": "Acabar con la maldad y traer bendiciones eternas.",
+        "en": "Acabar con la maldad y traer bendiciones eternas."
+      },
       "cita": "Daniel 2:44",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el egoísmo?",
-      "respuesta": "Debemos poner los intereses de los demás por encima de los nuestros.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el egoísmo?",
+        "en": "Qué enseña la biblia sobre el egoísmo"
+      },
+      "respuesta": {
+        "es": "Debemos poner los intereses de los demás por encima de los nuestros.",
+        "en": "Debemos poner los intereses de los demás por encima de los nuestros."
+      },
       "cita": "Filipenses 2:3-4",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cómo podemos acercarnos a Dios?",
-      "respuesta": "A través de la oración y el estudio de su Palabra.",
+      "titulo": {
+        "es": "¿Cómo podemos acercarnos a Dios?",
+        "en": "Cómo podemos acercarnos a dios"
+      },
+      "respuesta": {
+        "es": "A través de la oración y el estudio de su Palabra.",
+        "en": "A través de la oración y el estudio de su Palabra."
+      },
       "cita": "Santiago 4:8",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué valor tiene la oración según la Biblia?",
-      "respuesta": "Nos acerca a Dios y nos ayuda a sobrellevar nuestras cargas.",
+      "titulo": {
+        "es": "¿Qué valor tiene la oración según la Biblia?",
+        "en": "Qué valor tiene la oración según la biblia"
+      },
+      "respuesta": {
+        "es": "Nos acerca a Dios y nos ayuda a sobrellevar nuestras cargas.",
+        "en": "Nos acerca a Dios y nos ayuda a sobrellevar nuestras cargas."
+      },
       "cita": "Filipenses 4:6-7",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre la obediencia?",
-      "respuesta": "La obediencia a Dios trae bendiciones.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la obediencia?",
+        "en": "Qué enseña la biblia sobre la obediencia"
+      },
+      "respuesta": {
+        "es": "La obediencia a Dios trae bendiciones.",
+        "en": "La obediencia a Dios trae bendiciones."
+      },
       "cita": "Deuteronomio 28:1-2",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué esperanza hay para la Tierra?",
-      "respuesta": "Dios promete una Tierra nueva y justa.",
+      "titulo": {
+        "es": "¿Qué esperanza hay para la Tierra?",
+        "en": "Qué esperanza hay para la tierra"
+      },
+      "respuesta": {
+        "es": "Dios promete una Tierra nueva y justa.",
+        "en": "Dios promete una Tierra nueva y justa."
+      },
       "cita": "Salmo 37:29",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre la violencia?",
-      "respuesta": "Jehová aborrece la violencia y ama la paz.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la violencia?",
+        "en": "Qué enseña la biblia sobre la violencia"
+      },
+      "respuesta": {
+        "es": "Jehová aborrece la violencia y ama la paz.",
+        "en": "Jehová aborrece la violencia y ama la paz."
+      },
       "cita": "Salmo 11:5",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre la moralidad sexual?",
-      "respuesta": "Dios espera que evitemos la inmoralidad y seamos puros.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre la moralidad sexual?",
+        "en": "Qué dice la biblia sobre la moralidad sexual"
+      },
+      "respuesta": {
+        "es": "Dios espera que evitemos la inmoralidad y seamos puros.",
+        "en": "Dios espera que evitemos la inmoralidad y seamos puros."
+      },
       "cita": "1 Tesalonicenses 4:3-5",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué es el espíritu santo según la Biblia?",
-      "respuesta": "Es la fuerza activa de Dios que guía y fortalece.",
+      "titulo": {
+        "es": "¿Qué es el espíritu santo según la Biblia?",
+        "en": "Qué es el espíritu santo según la biblia"
+      },
+      "respuesta": {
+        "es": "Es la fuerza activa de Dios que guía y fortalece.",
+        "en": "Es la fuerza activa de Dios que guía y fortalece."
+      },
       "cita": "Hechos 1:8",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el perdón?",
-      "respuesta": "Debemos perdonar como Jehová nos perdona.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el perdón?",
+        "en": "Qué enseña la biblia sobre el perdón"
+      },
+      "respuesta": {
+        "es": "Debemos perdonar como Jehová nos perdona.",
+        "en": "Debemos perdonar como Jehová nos perdona."
+      },
       "cita": "Colosenses 3:13",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cuál es el propósito de la predicación cristiana?",
-      "respuesta": "Dar a conocer las buenas noticias del Reino.",
+      "titulo": {
+        "es": "¿Cuál es el propósito de la predicación cristiana?",
+        "en": "Cuál es el propósito de la predicación cristiana"
+      },
+      "respuesta": {
+        "es": "Dar a conocer las buenas noticias del Reino.",
+        "en": "Dar a conocer las buenas noticias del Reino."
+      },
       "cita": "Mateo 24:14",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre la mentira?",
-      "respuesta": "Jehová detesta la mentira; ama la verdad.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre la mentira?",
+        "en": "Qué dice la biblia sobre la mentira"
+      },
+      "respuesta": {
+        "es": "Jehová detesta la mentira; ama la verdad.",
+        "en": "Jehová detesta la mentira; ama la verdad."
+      },
       "cita": "Proverbios 12:22",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Debemos temer a Satanás?",
-      "respuesta": "No, pero debemos estar alertas a sus trampas.",
+      "titulo": {
+        "es": "¿Debemos temer a Satanás?",
+        "en": "Debemos temer a satanás"
+      },
+      "respuesta": {
+        "es": "No, pero debemos estar alertas a sus trampas.",
+        "en": "No, pero debemos estar alertas a sus trampas."
+      },
       "cita": "1 Pedro 5:8",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre la paciencia?",
-      "respuesta": "La paciencia es una cualidad que Dios valora.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la paciencia?",
+        "en": "Qué enseña la biblia sobre la paciencia"
+      },
+      "respuesta": {
+        "es": "La paciencia es una cualidad que Dios valora.",
+        "en": "La paciencia es una cualidad que Dios valora."
+      },
       "cita": "Eclesiastés 7:8",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué esperanza hay para quienes sufren enfermedades?",
-      "respuesta": "Dios promete un futuro sin dolor ni enfermedad.",
+      "titulo": {
+        "es": "¿Qué esperanza hay para quienes sufren enfermedades?",
+        "en": "Qué esperanza hay para quienes sufren enfermedades"
+      },
+      "respuesta": {
+        "es": "Dios promete un futuro sin dolor ni enfermedad.",
+        "en": "Dios promete un futuro sin dolor ni enfermedad."
+      },
       "cita": "Isaías 33:24",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Por qué debemos amar al prójimo?",
-      "respuesta": "Porque el amor es el cumplimiento de la ley.",
+      "titulo": {
+        "es": "¿Por qué debemos amar al prójimo?",
+        "en": "Por qué debemos amar al prójimo"
+      },
+      "respuesta": {
+        "es": "Porque el amor es el cumplimiento de la ley.",
+        "en": "Porque el amor es el cumplimiento de la ley."
+      },
       "cita": "Romanos 13:10",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre la avaricia?",
-      "respuesta": "La avaricia puede alejarnos de Dios.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre la avaricia?",
+        "en": "Qué dice la biblia sobre la avaricia"
+      },
+      "respuesta": {
+        "es": "La avaricia puede alejarnos de Dios.",
+        "en": "La avaricia puede alejarnos de Dios."
+      },
       "cita": "1 Timoteo 6:9-10",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué significa buscar primero el Reino?",
-      "respuesta": "Poner los intereses de Dios antes que los propios.",
+      "titulo": {
+        "es": "¿Qué significa buscar primero el Reino?",
+        "en": "Qué significa buscar primero el reino"
+      },
+      "respuesta": {
+        "es": "Poner los intereses de Dios antes que los propios.",
+        "en": "Poner los intereses de Dios antes que los propios."
+      },
       "cita": "Mateo 6:33",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre la esperanza?",
-      "respuesta": "La esperanza basada en la Biblia no defrauda.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la esperanza?",
+        "en": "Qué enseña la biblia sobre la esperanza"
+      },
+      "respuesta": {
+        "es": "La esperanza basada en la Biblia no defrauda.",
+        "en": "La esperanza basada en la Biblia no defrauda."
+      },
       "cita": "Romanos 15:13",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué actitud tener hacia los ancianos cristianos?",
-      "respuesta": "Respetarlos y valorar su labor en la congregación.",
+      "titulo": {
+        "es": "¿Qué actitud tener hacia los ancianos cristianos?",
+        "en": "Qué actitud tener hacia los ancianos cristianos"
+      },
+      "respuesta": {
+        "es": "Respetarlos y valorar su labor en la congregación.",
+        "en": "Respetarlos y valorar su labor en la congregación."
+      },
       "cita": "1 Timoteo 5:17",
       "categoria": "Conducta"
-    },
-    {
-      "titulo": "¿Qué enseña la Biblia sobre la adoración verdadera?",
-      "respuesta": "Debe ser con espíritu y verdad.",
-      "cita": "Juan 4:23-24",
-      "categoria": "Doctrina"
     }
   ]
 }

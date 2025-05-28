@@ -1,1 +1,314 @@
-[]
+[
+  {
+    "titulo": {
+      "es": "¿Qué es la neutralidad cristiana?",
+      "en": "Qué es la neutralidad cristiana"
+    },
+    "respuesta": {
+      "es": "Es la decisión de no participar en conflictos políticos o militares, imitando a Jesús.",
+      "en": "Es la decisión de no participar en conflictos políticos o militares, imitando a Jesús."
+    },
+    "cita": "Juan 17:16",
+    "categoria": "Debates",
+    "id": 2
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre el racismo?",
+      "en": "Qué dice la biblia sobre el racismo"
+    },
+    "respuesta": {
+      "es": "Dios no hace distinción entre personas. Todos somos iguales ante Él.",
+      "en": "Dios no hace distinción entre personas. Todos somos iguales ante Él."
+    },
+    "cita": "Hechos 10:34-35",
+    "categoria": "Debates",
+    "id": 12
+  },
+  {
+    "titulo": {
+      "es": "¿Qué enseña la Biblia sobre el materialismo?",
+      "en": "Qué enseña la biblia sobre el materialismo"
+    },
+    "respuesta": {
+      "es": "No debemos poner las cosas materiales por encima de nuestra espiritualidad.",
+      "en": "No debemos poner las cosas materiales por encima de nuestra espiritualidad."
+    },
+    "cita": "Mateo 6:24",
+    "categoria": "Debates",
+    "id": 13
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre el divorcio?",
+      "en": "Qué dice la biblia sobre el divorcio"
+    },
+    "respuesta": {
+      "es": "Solo se permite por inmoralidad sexual.",
+      "en": "Solo se permite por inmoralidad sexual."
+    },
+    "cita": "Mateo 19:9",
+    "categoria": "Debates",
+    "id": 26
+  },
+  {
+    "titulo": {
+      "es": "¿Quiénes son los 144,000?",
+      "en": "Quiénes son los 144,000"
+    },
+    "respuesta": {
+      "es": "Son los ungidos que gobernarán con Cristo en los cielos.",
+      "en": "Son los ungidos que gobernarán con Cristo en los cielos."
+    },
+    "cita": "Apocalipsis 14:1,3",
+    "categoria": "Debates",
+    "id": 41
+  },
+  {
+    "titulo": {
+      "es": "¿Debemos temer a los espíritus o demonios?",
+      "en": "Debemos temer a los espíritus o demonios"
+    },
+    "respuesta": {
+      "es": "No, Jehová es más poderoso y puede protegernos.",
+      "en": "No, Jehová es más poderoso y puede protegernos."
+    },
+    "cita": "Santiago 4:7",
+    "categoria": "Debates",
+    "id": 42
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre la educación superior?",
+      "en": "Qué dice la biblia sobre la educación superior"
+    },
+    "respuesta": {
+      "es": "Debemos buscar primero intereses espirituales y tener cuidado con las influencias.",
+      "en": "Debemos buscar primero intereses espirituales y tener cuidado con las influencias."
+    },
+    "cita": "Colosenses 2:8",
+    "categoria": "Debates",
+    "id": 67
+  },
+  {
+    "titulo": {
+      "es": "¿Deben los cristianos celebrar fiestas religiosas?",
+      "en": "Deben los cristianos celebrar fiestas religiosas"
+    },
+    "respuesta": {
+      "es": "No, porque muchas tienen orígenes paganos o doctrinas no bíblicas.",
+      "en": "No, porque muchas tienen orígenes paganos o doctrinas no bíblicas."
+    },
+    "cita": "2 Corintios 6:14-17",
+    "categoria": "Debates",
+    "id": 68
+  },
+  {
+    "titulo": {
+      "es": "¿Deben los cristianos evitar la política?",
+      "en": "Deben los cristianos evitar la política"
+    },
+    "respuesta": {
+      "es": "Sí, deben ser neutrales y confiar en el Reino de Dios.",
+      "en": "Sí, deben ser neutrales y confiar en el Reino de Dios."
+    },
+    "cita": "Juan 18:36",
+    "categoria": "Debates",
+    "id": 73
+  },
+  {
+    "titulo": {
+      "es": "¿Qué enseña la Biblia sobre la inmortalidad del alma?",
+      "en": "Qué enseña la biblia sobre la inmortalidad del alma"
+    },
+    "respuesta": {
+      "es": "El alma muere; no es inmortal. La esperanza es la resurrección.",
+      "en": "El alma muere; no es inmortal. La esperanza es la resurrección."
+    },
+    "cita": "Ezequiel 18:4",
+    "categoria": "Debates",
+    "id": 76
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre la idolatría?",
+      "en": "Qué dice la biblia sobre la idolatría"
+    },
+    "respuesta": {
+      "es": "Está prohibida en todas sus formas; sólo Jehová debe ser adorado.",
+      "en": "Está prohibida en todas sus formas; sólo Jehová debe ser adorado."
+    },
+    "cita": "Éxodo 20:4-5",
+    "categoria": "Debates",
+    "id": 80
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre el materialismo?",
+      "en": "Qué dice la biblia sobre el materialismo"
+    },
+    "respuesta": {
+      "es": "No podemos servir a Dios y a las riquezas.",
+      "en": "No podemos servir a Dios y a las riquezas."
+    },
+    "cita": "Mateo 6:24",
+    "categoria": "Debates",
+    "id": 126
+  },
+  {
+    "titulo": {
+      "es": "¿Debemos temer a Satanás?",
+      "en": "Debemos temer a satanás"
+    },
+    "respuesta": {
+      "es": "No, pero debemos estar alertas a sus trampas.",
+      "en": "No, pero debemos estar alertas a sus trampas."
+    },
+    "cita": "1 Pedro 5:8",
+    "categoria": "Debates",
+    "id": 139
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre la avaricia?",
+      "en": "Qué dice la biblia sobre la avaricia"
+    },
+    "respuesta": {
+      "es": "La avaricia puede alejarnos de Dios.",
+      "en": "La avaricia puede alejarnos de Dios."
+    },
+    "cita": "1 Timoteo 6:9-10",
+    "categoria": "Debates",
+    "id": 143
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre el aborto?",
+      "en": "Qué dice la biblia sobre el aborto"
+    },
+    "respuesta": {
+      "es": "La vida es sagrada desde el vientre y debe ser respetada.",
+      "en": "La vida es sagrada desde el vientre y debe ser respetada."
+    },
+    "cita": "Éxodo 21:22-23",
+    "categoria": "Debates",
+    "id": 150
+  },
+  {
+    "titulo": {
+      "es": "¿Deben los cristianos hacer juramentos?",
+      "en": "Deben los cristianos hacer juramentos"
+    },
+    "respuesta": {
+      "es": "Jesús enseñó a decir simplemente 'sí' o 'no'.",
+      "en": "Jesús enseñó a decir simplemente 'sí' o 'no'."
+    },
+    "cita": "Mateo 5:37",
+    "categoria": "Debates",
+    "id": 156
+  },
+  {
+    "titulo": {
+      "es": "¿Qué es la apostasía?",
+      "en": "Qué es la apostasía"
+    },
+    "respuesta": {
+      "es": "Es el abandono o rechazo de la verdad bíblica revelada.",
+      "en": "Es el abandono o rechazo de la verdad bíblica revelada."
+    },
+    "cita": "2 Tesalonicenses 2:3",
+    "categoria": "Debates",
+    "id": 159
+  },
+  {
+    "titulo": {
+      "es": "¿Por qué Dios permite el sufrimiento?",
+      "en": "Por qué dios permite el sufrimiento"
+    },
+    "respuesta": {
+      "es": "Para resolver cuestiones morales universales y demostrar su justicia.",
+      "en": "Para resolver cuestiones morales universales y demostrar su justicia."
+    },
+    "cita": "Job 1:9-11",
+    "categoria": "Debates",
+    "id": 160
+  },
+  {
+    "titulo": {
+      "es": "¿Qué enseña la Biblia sobre los espíritus?",
+      "en": "Qué enseña la biblia sobre los espíritus"
+    },
+    "respuesta": {
+      "es": "Prohíbe toda forma de espiritismo y contacto con los muertos.",
+      "en": "Prohíbe toda forma de espiritismo y contacto con los muertos."
+    },
+    "cita": "Deuteronomio 18:10-12",
+    "categoria": "Debates",
+    "id": 163
+  },
+  {
+    "titulo": {
+      "es": "¿Debemos tener miedo del Diablo?",
+      "en": "Debemos tener miedo del diablo"
+    },
+    "respuesta": {
+      "es": "No, si permanecemos cerca de Dios, Satanás huirá de nosotros.",
+      "en": "No, si permanecemos cerca de Dios, Satanás huirá de nosotros."
+    },
+    "cita": "Santiago 4:7",
+    "categoria": "Debates",
+    "id": 181
+  },
+  {
+    "titulo": {
+      "es": "¿Qué dice la Biblia sobre la riqueza?",
+      "en": "Qué dice la biblia sobre la riqueza"
+    },
+    "respuesta": {
+      "es": "La riqueza no garantiza felicidad ni salvación; debemos ser ricos para con Dios.",
+      "en": "La riqueza no garantiza felicidad ni salvación; debemos ser ricos para con Dios."
+    },
+    "cita": "Lucas 12:15",
+    "categoria": "Debates",
+    "id": 187
+  },
+  {
+    "titulo": {
+      "es": "¿Qué muestra que estamos en los últimos días?",
+      "en": "Qué muestra que estamos en los últimos días"
+    },
+    "respuesta": {
+      "es": "Las señales como guerras, desobediencia y falta de amor que profetizó la Biblia.",
+      "en": "Las señales como guerras, desobediencia y falta de amor que profetizó la Biblia."
+    },
+    "cita": "2 Timoteo 3:1-5",
+    "categoria": "Debates",
+    "id": 192
+  },
+  {
+    "titulo": {
+      "es": "¿Es el sufrimiento castigo de Dios?",
+      "en": "Es el sufrimiento castigo de dios"
+    },
+    "respuesta": {
+      "es": "No necesariamente. A veces es prueba de fe o consecuencia del pecado humano.",
+      "en": "No necesariamente. A veces es prueba de fe o consecuencia del pecado humano."
+    },
+    "cita": "Santiago 1:2-4",
+    "categoria": "Debates",
+    "id": 197
+  },
+  {
+    "titulo": {
+      "es": "¿Puede Dios perdonar cualquier pecado?",
+      "en": "Puede dios perdonar cualquier pecado"
+    },
+    "respuesta": {
+      "es": "Sí, excepto el pecado deliberado contra el espíritu santo.",
+      "en": "Sí, excepto el pecado deliberado contra el espíritu santo."
+    },
+    "cita": "Mateo 12:31",
+    "categoria": "Debates",
+    "id": 201
+  }
+]

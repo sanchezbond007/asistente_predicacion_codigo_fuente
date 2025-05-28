@@ -1,74 +1,91 @@
 from kivy.uix.screenmanager import Screen
-from kivy.uix.scrollview import ScrollView
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
-from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
-from kivy.uix.checkbox import CheckBox
-from kivy.uix.popup import Popup
+from kivy.uix.widget import Widget
+from kivy.core.window import Window
+import os
+import sys
+
+# Fondo blanco
+Window.clearcolor = (1, 1, 1, 1)
+
+# Asegura acceso a la raíz del proyecto
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
+from utils.traducciones import traducir as t
 
 class PantallaLogin(Screen):
-    def __init__(self, **kwargs):
+    def __init__(self, idioma_callback=None, continuar_callback=None, idioma='en', **kwargs):
+        self.idioma = idioma
+        self.idioma_callback = idioma_callback
+        self.continuar_callback = continuar_callback
         super().__init__(**kwargs)
 
-        scroll = ScrollView(size_hint=(1, 1))
-        layout = BoxLayout(orientation='vertical', padding=40, spacing=25, size_hint_y=None)
-        layout.bind(minimum_height=layout.setter('height'))
+        self.layout = BoxLayout(orientation='vertical', padding=30, spacing=40)
+        self.layout.add_widget(Widget(size_hint_y=2))  # Espaciador superior
 
-        # Título
-        layout.add_widget(Label(text="Asistente de Predicación", font_size=70, size_hint_y=None, height=100))
+        self.titulo = Label(
+            text='',
+            font_size=60,
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=120,
+            halign='center',
+            valign='middle'
+        )
+        self.titulo.bind(size=self.titulo.setter('text_size'))
+        self.layout.add_widget(self.titulo)
 
-        # Usuario
-        layout.add_widget(Label(text="Usuario:", font_size=60, size_hint_y=None, height=90))
-        self.usuario_input = TextInput(size_hint_y=None, height=90, font_size=60)
-        layout.add_widget(self.usuario_input)
+        self.lbl_select = Label(
+            text='',
+            font_size=60,
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=80
+        )
+        self.layout.add_widget(self.lbl_select)
 
-        # PIN
-        layout.add_widget(Label(text="PIN:", font_size=60, size_hint_y=None, height=90))
-        self.pin_input = TextInput(password=True, size_hint_y=None, height=90, font_size=60)
-        layout.add_widget(self.pin_input)
+        # Botones de idioma
+        botones_idioma = BoxLayout(size_hint_y=None, height=80, spacing=30)
+        botones_idioma.add_widget(Button(
+            text="Español",
+            font_size=60,
+            on_press=lambda x: self.cambiar_idioma("es")
+        ))
+        botones_idioma.add_widget(Button(
+            text="English",
+            font_size=60,
+            on_press=lambda x: self.cambiar_idioma("en")
+        ))
+        self.layout.add_widget(botones_idioma)
 
-        # CheckBox Recordarme
-        checkbox_layout = BoxLayout(orientation='horizontal', size_hint_y=None, height=90)
-        self.recordarme_checkbox = CheckBox(active=True, color=[1, 1, 0, 1])  # Siempre amarillo
-        checkbox_layout.add_widget(self.recordarme_checkbox)
-        checkbox_layout.add_widget(Label(text="Recordarme", font_size=60))
-        layout.add_widget(checkbox_layout)
+        # Botones principales
+        self.btn_login = Button(text='', font_size=60, size_hint_y=None, height=90,
+                                on_press=lambda x: self.continuar_callback() if self.continuar_callback else None)
+        self.btn_crear = Button(text='', font_size=60, size_hint_y=None, height=90)
+        self.btn_actualizar = Button(text='', font_size=60, size_hint_y=None, height=90)
 
-        # Entrar
-        btn_entrar = Button(text="Entrar", size_hint_y=None, height=90, font_size=60)
-        btn_entrar.bind(on_release=self.verificar_credenciales)
-        layout.add_widget(btn_entrar)
+        self.layout.add_widget(self.btn_login)
+        self.layout.add_widget(self.btn_crear)
+        self.layout.add_widget(self.btn_actualizar)
 
-        # ¿Olvidaste tu PIN?
-        btn_olvido = Button(text="¿Olvidaste tu PIN?", size_hint_y=None, height=90, font_size=60)
-        btn_olvido.bind(on_release=self.olvidaste_pin)
-        layout.add_widget(btn_olvido)
+        self.layout.add_widget(Widget(size_hint_y=3))  # Espaciador inferior
 
-        scroll.add_widget(layout)
-        self.add_widget(scroll)
+        self.add_widget(self.layout)
+        self.actualizar_textos()
 
-        # Si está activo Recordarme, rellenar campos por defecto
-        if self.recordarme_checkbox.active:
-            self.usuario_input.text = "admin"
-            self.pin_input.text = "1234"
+    def cambiar_idioma(self, nuevo_idioma):
+        self.idioma = nuevo_idioma
+        if self.idioma_callback:
+            self.idioma_callback(nuevo_idioma)
+        self.actualizar_textos()
 
-    def verificar_credenciales(self, instance):
-        usuario = self.usuario_input.text.strip()
-        pin = self.pin_input.text.strip()
-        if usuario.lower() == "admin" and pin == "1234":
-            self.manager.current = "menu"
-        else:
-            self.mostrar_error("Usuario o PIN incorrecto.")
-
-    def mostrar_error(self, mensaje):
-        popup = Popup(title="Error de acceso",
-                      content=Label(text=mensaje, font_size=40),
-                      size_hint=(None, None), size=(500, 300))
-        popup.open()
-
-    def olvidaste_pin(self, instance):
-        popup = Popup(title="Recuperación de PIN",
-                      content=Label(text="Contacta a soporte para restablecer tu PIN.", font_size=40),
-                      size_hint=(None, None), size=(600, 300))
-        popup.open()
+    def actualizar_textos(self):
+        self.titulo.text = t(self.idioma, "titulo")
+        self.lbl_select.text = t(self.idioma, "seleccionar_idioma")
+        self.btn_login.text = t(self.idioma, "login")
+        self.btn_crear.text = t(self.idioma, "crear_usuario")
+        self.btn_actualizar.text = t(self.idioma, "actualizar")

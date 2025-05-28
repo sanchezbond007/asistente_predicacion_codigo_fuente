@@ -1,184 +1,364 @@
 {
   "bloque": 5,
-  "descripcion": "Este archivo contiene los temas del BLOQUE 6 (final) de un total de 180 temas bíblicos con preguntas y respuestas de acuerdo con las enseñanzas de los Testigos de Jehová.",
+  "descripcion": "Bloque 5 con 30 temas bíblicos bilingües.",
   "temas": [
     {
-      "titulo": "¿Por qué debemos poner el Reino en primer lugar?",
-      "respuesta": "Porque Jesús enseñó que es la prioridad en la vida de un cristiano.",
+      "titulo": {
+        "es": "¿Por qué debemos poner el Reino en primer lugar?",
+        "en": "Por qué debemos poner el reino en primer lugar"
+      },
+      "respuesta": {
+        "es": "Porque Jesús enseñó que es la prioridad en la vida de un cristiano.",
+        "en": "Porque Jesús enseñó que es la prioridad en la vida de un cristiano."
+      },
       "cita": "Mateo 6:33",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Cómo muestra Dios amor a la humanidad?",
-      "respuesta": "Envió a su Hijo para darnos vida eterna y cuida de nosotros con ternura.",
+      "titulo": {
+        "es": "¿Cómo muestra Dios amor a la humanidad?",
+        "en": "Cómo muestra dios amor a la humanidad"
+      },
+      "respuesta": {
+        "es": "Envió a su Hijo para darnos vida eterna y cuida de nosotros con ternura.",
+        "en": "Envió a su Hijo para darnos vida eterna y cuida de nosotros con ternura."
+      },
       "cita": "Juan 3:16",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Es posible agradar a Dios hoy?",
-      "respuesta": "Sí, mediante la fe, la obediencia y un estilo de vida piadoso.",
+      "titulo": {
+        "es": "¿Es posible agradar a Dios hoy?",
+        "en": "Es posible agradar a dios hoy"
+      },
+      "respuesta": {
+        "es": "Sí, mediante la fe, la obediencia y un estilo de vida piadoso.",
+        "en": "Sí, mediante la fe, la obediencia y un estilo de vida piadoso."
+      },
       "cita": "Hebreos 11:6",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el compañerismo cristiano?",
-      "respuesta": "Fortalece la fe y muestra amor entre hermanos.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el compañerismo cristiano?",
+        "en": "Qué enseña la biblia sobre el compañerismo cristiano"
+      },
+      "respuesta": {
+        "es": "Fortalece la fe y muestra amor entre hermanos.",
+        "en": "Fortalece la fe y muestra amor entre hermanos."
+      },
       "cita": "Salmo 133:1",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué esperanza da Dios a los jóvenes?",
-      "respuesta": "Que pueden servirle con gozo y tener un futuro eterno en su Reino.",
+      "titulo": {
+        "es": "¿Qué esperanza da Dios a los jóvenes?",
+        "en": "Qué esperanza da dios a los jóvenes"
+      },
+      "respuesta": {
+        "es": "Que pueden servirle con gozo y tener un futuro eterno en su Reino.",
+        "en": "Que pueden servirle con gozo y tener un futuro eterno en su Reino."
+      },
       "cita": "Eclesiastés 12:1",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué actitud tener hacia los errores del pasado?",
-      "respuesta": "Dios perdona y podemos aprender de ellos para mejorar.",
+      "titulo": {
+        "es": "¿Qué actitud tener hacia los errores del pasado?",
+        "en": "Qué actitud tener hacia los errores del pasado"
+      },
+      "respuesta": {
+        "es": "Dios perdona y podemos aprender de ellos para mejorar.",
+        "en": "Dios perdona y podemos aprender de ellos para mejorar."
+      },
       "cita": "Isaías 1:18",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre la educación superior?",
-      "respuesta": "Debemos buscar primero intereses espirituales y tener cuidado con las influencias.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre la educación superior?",
+        "en": "Qué dice la biblia sobre la educación superior"
+      },
+      "respuesta": {
+        "es": "Debemos buscar primero intereses espirituales y tener cuidado con las influencias.",
+        "en": "Debemos buscar primero intereses espirituales y tener cuidado con las influencias."
+      },
       "cita": "Colosenses 2:8",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Deben los cristianos celebrar fiestas religiosas?",
-      "respuesta": "No, porque muchas tienen orígenes paganos o doctrinas no bíblicas.",
+      "titulo": {
+        "es": "¿Deben los cristianos celebrar fiestas religiosas?",
+        "en": "Deben los cristianos celebrar fiestas religiosas"
+      },
+      "respuesta": {
+        "es": "No, porque muchas tienen orígenes paganos o doctrinas no bíblicas.",
+        "en": "No, porque muchas tienen orígenes paganos o doctrinas no bíblicas."
+      },
       "cita": "2 Corintios 6:14-17",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Cómo se muestra la misericordia cristiana?",
-      "respuesta": "Perdonando, ayudando a los necesitados y actuando con compasión.",
+      "titulo": {
+        "es": "¿Cómo se muestra la misericordia cristiana?",
+        "en": "Cómo se muestra la misericordia cristiana"
+      },
+      "respuesta": {
+        "es": "Perdonando, ayudando a los necesitados y actuando con compasión.",
+        "en": "Perdonando, ayudando a los necesitados y actuando con compasión."
+      },
       "cita": "Lucas 6:36",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Por qué debemos tener valor espiritual?",
-      "respuesta": "Porque enfrentamos oposición del mundo y necesitamos defender nuestra fe.",
+      "titulo": {
+        "es": "¿Por qué debemos tener valor espiritual?",
+        "en": "Por qué debemos tener valor espiritual"
+      },
+      "respuesta": {
+        "es": "Porque enfrentamos oposición del mundo y necesitamos defender nuestra fe.",
+        "en": "Porque enfrentamos oposición del mundo y necesitamos defender nuestra fe."
+      },
       "cita": "Josué 1:9",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre las buenas obras?",
-      "respuesta": "Son una manifestación de nuestra fe y amor a Dios.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre las buenas obras?",
+        "en": "Qué enseña la biblia sobre las buenas obras"
+      },
+      "respuesta": {
+        "es": "Son una manifestación de nuestra fe y amor a Dios.",
+        "en": "Son una manifestación de nuestra fe y amor a Dios."
+      },
       "cita": "Santiago 2:17",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cuál es el propósito de la resurrección?",
-      "respuesta": "Restaurar la vida a quienes han muerto, para que vivan bajo el Reino de Dios.",
+      "titulo": {
+        "es": "¿Cuál es el propósito de la resurrección?",
+        "en": "Cuál es el propósito de la resurrección"
+      },
+      "respuesta": {
+        "es": "Restaurar la vida a quienes han muerto, para que vivan bajo el Reino de Dios.",
+        "en": "Restaurar la vida a quienes han muerto, para que vivan bajo el Reino de Dios."
+      },
       "cita": "Hechos 24:15",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Deben los cristianos evitar la política?",
-      "respuesta": "Sí, deben ser neutrales y confiar en el Reino de Dios.",
+      "titulo": {
+        "es": "¿Deben los cristianos evitar la política?",
+        "en": "Deben los cristianos evitar la política"
+      },
+      "respuesta": {
+        "es": "Sí, deben ser neutrales y confiar en el Reino de Dios.",
+        "en": "Sí, deben ser neutrales y confiar en el Reino de Dios."
+      },
       "cita": "Juan 18:36",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué actitud debemos tener ante el sufrimiento?",
-      "respuesta": "Debemos ser pacientes y confiar en la ayuda de Jehová.",
+      "titulo": {
+        "es": "¿Qué actitud debemos tener ante el sufrimiento?",
+        "en": "Qué actitud debemos tener ante el sufrimiento"
+      },
+      "respuesta": {
+        "es": "Debemos ser pacientes y confiar en la ayuda de Jehová.",
+        "en": "Debemos ser pacientes y confiar en la ayuda de Jehová."
+      },
       "cita": "Romanos 12:12",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Qué es el pecado según la Biblia?",
-      "respuesta": "Es la desobediencia a las leyes de Dios.",
+      "titulo": {
+        "es": "¿Qué es el pecado según la Biblia?",
+        "en": "Qué es el pecado según la biblia"
+      },
+      "respuesta": {
+        "es": "Es la desobediencia a las leyes de Dios.",
+        "en": "Es la desobediencia a las leyes de Dios."
+      },
       "cita": "1 Juan 3:4",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre la inmortalidad del alma?",
-      "respuesta": "El alma muere; no es inmortal. La esperanza es la resurrección.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre la inmortalidad del alma?",
+        "en": "Qué enseña la biblia sobre la inmortalidad del alma"
+      },
+      "respuesta": {
+        "es": "El alma muere; no es inmortal. La esperanza es la resurrección.",
+        "en": "El alma muere; no es inmortal. La esperanza es la resurrección."
+      },
       "cita": "Ezequiel 18:4",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Cómo agradar a Dios como familia?",
-      "respuesta": "Orando juntos, estudiando la Biblia y aplicando sus principios en el hogar.",
+      "titulo": {
+        "es": "¿Cómo agradar a Dios como familia?",
+        "en": "Cómo agradar a dios como familia"
+      },
+      "respuesta": {
+        "es": "Orando juntos, estudiando la Biblia y aplicando sus principios en el hogar.",
+        "en": "Orando juntos, estudiando la Biblia y aplicando sus principios en el hogar."
+      },
       "cita": "Efesios 5:33–6:4",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué es la santificación del nombre de Dios?",
-      "respuesta": "Es honrar y dar gloria al nombre de Jehová con nuestra conducta y predicación.",
+      "titulo": {
+        "es": "¿Qué es la santificación del nombre de Dios?",
+        "en": "Qué es la santificación del nombre de dios"
+      },
+      "respuesta": {
+        "es": "Es honrar y dar gloria al nombre de Jehová con nuestra conducta y predicación.",
+        "en": "Es honrar y dar gloria al nombre de Jehová con nuestra conducta y predicación."
+      },
       "cita": "Mateo 6:9",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Cuál es el papel de los ángeles?",
-      "respuesta": "Sirven como mensajeros de Dios y ayudan a sus siervos.",
+      "titulo": {
+        "es": "¿Cuál es el papel de los ángeles?",
+        "en": "Cuál es el papel de los ángeles"
+      },
+      "respuesta": {
+        "es": "Sirven como mensajeros de Dios y ayudan a sus siervos.",
+        "en": "Sirven como mensajeros de Dios y ayudan a sus siervos."
+      },
       "cita": "Hebreos 1:14",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre la idolatría?",
-      "respuesta": "Está prohibida en todas sus formas; sólo Jehová debe ser adorado.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre la idolatría?",
+        "en": "Qué dice la biblia sobre la idolatría"
+      },
+      "respuesta": {
+        "es": "Está prohibida en todas sus formas; sólo Jehová debe ser adorado.",
+        "en": "Está prohibida en todas sus formas; sólo Jehová debe ser adorado."
+      },
       "cita": "Éxodo 20:4-5",
       "categoria": "Debates"
     },
     {
-      "titulo": "¿Qué efecto tiene la lectura bíblica en los jóvenes?",
-      "respuesta": "Los hace sabios para la salvación y les da guía moral.",
+      "titulo": {
+        "es": "¿Qué efecto tiene la lectura bíblica en los jóvenes?",
+        "en": "Qué efecto tiene la lectura bíblica en los jóvenes"
+      },
+      "respuesta": {
+        "es": "Los hace sabios para la salvación y les da guía moral.",
+        "en": "Los hace sabios para la salvación y les da guía moral."
+      },
       "cita": "2 Timoteo 3:15",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué papel tiene la congregación en tiempos difíciles?",
-      "respuesta": "Brinda consuelo, fortaleza y apoyo mutuo.",
+      "titulo": {
+        "es": "¿Qué papel tiene la congregación en tiempos difíciles?",
+        "en": "Qué papel tiene la congregación en tiempos difíciles"
+      },
+      "respuesta": {
+        "es": "Brinda consuelo, fortaleza y apoyo mutuo.",
+        "en": "Brinda consuelo, fortaleza y apoyo mutuo."
+      },
       "cita": "1 Tesalonicenses 5:11",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Cómo afecta la oración a nuestra vida espiritual?",
-      "respuesta": "Nos mantiene conectados con Jehová y fortalece nuestra fe.",
+      "titulo": {
+        "es": "¿Cómo afecta la oración a nuestra vida espiritual?",
+        "en": "Cómo afecta la oración a nuestra vida espiritual"
+      },
+      "respuesta": {
+        "es": "Nos mantiene conectados con Jehová y fortalece nuestra fe.",
+        "en": "Nos mantiene conectados con Jehová y fortalece nuestra fe."
+      },
       "cita": "Salmo 55:22",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué esperanza hay para los que no han conocido a Dios?",
-      "respuesta": "Tendrán la oportunidad de aprender sobre Él durante el reinado de Cristo.",
+      "titulo": {
+        "es": "¿Qué esperanza hay para los que no han conocido a Dios?",
+        "en": "Qué esperanza hay para los que no han conocido a dios"
+      },
+      "respuesta": {
+        "es": "Tendrán la oportunidad de aprender sobre Él durante el reinado de Cristo.",
+        "en": "Tendrán la oportunidad de aprender sobre Él durante el reinado de Cristo."
+      },
       "cita": "Hechos 17:30-31",
       "categoria": "Esperanza"
     },
     {
-      "titulo": "¿Cómo demostrar que confiamos en Jehová?",
-      "respuesta": "Obedeciendo su Palabra incluso en circunstancias difíciles.",
+      "titulo": {
+        "es": "¿Cómo demostrar que confiamos en Jehová?",
+        "en": "Cómo demostrar que confiamos en jehová"
+      },
+      "respuesta": {
+        "es": "Obedeciendo su Palabra incluso en circunstancias difíciles.",
+        "en": "Obedeciendo su Palabra incluso en circunstancias difíciles."
+      },
       "cita": "Proverbios 3:5-6",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué dice la Biblia sobre el temor al hombre?",
-      "respuesta": "Nos puede hacer tropezar; debemos temer solo a Dios.",
+      "titulo": {
+        "es": "¿Qué dice la Biblia sobre el temor al hombre?",
+        "en": "Qué dice la biblia sobre el temor al hombre"
+      },
+      "respuesta": {
+        "es": "Nos puede hacer tropezar; debemos temer solo a Dios.",
+        "en": "Nos puede hacer tropezar; debemos temer solo a Dios."
+      },
       "cita": "Proverbios 29:25",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué es la limpieza moral según la Biblia?",
-      "respuesta": "Evitar inmoralidad, pensamientos impuros y vivir conforme a la santidad.",
+      "titulo": {
+        "es": "¿Qué es la limpieza moral según la Biblia?",
+        "en": "Qué es la limpieza moral según la biblia"
+      },
+      "respuesta": {
+        "es": "Evitar inmoralidad, pensamientos impuros y vivir conforme a la santidad.",
+        "en": "Evitar inmoralidad, pensamientos impuros y vivir conforme a la santidad."
+      },
       "cita": "1 Tesalonicenses 4:3-5",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el amor verdadero?",
-      "respuesta": "Es paciente, bondadoso, no busca lo suyo y nunca falla.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el amor verdadero?",
+        "en": "Qué enseña la biblia sobre el amor verdadero"
+      },
+      "respuesta": {
+        "es": "Es paciente, bondadoso, no busca lo suyo y nunca falla.",
+        "en": "Es paciente, bondadoso, no busca lo suyo y nunca falla."
+      },
       "cita": "1 Corintios 13:4-8",
       "categoria": "Conducta"
     },
     {
-      "titulo": "¿Por qué confiar en las profecías bíblicas?",
-      "respuesta": "Porque se han cumplido y se seguirán cumpliendo con precisión.",
+      "titulo": {
+        "es": "¿Por qué confiar en las profecías bíblicas?",
+        "en": "Por qué confiar en las profecías bíblicas"
+      },
+      "respuesta": {
+        "es": "Porque se han cumplido y se seguirán cumpliendo con precisión.",
+        "en": "Porque se han cumplido y se seguirán cumpliendo con precisión."
+      },
       "cita": "Isaías 46:10",
       "categoria": "Doctrina"
     },
     {
-      "titulo": "¿Qué enseña la Biblia sobre el fin del sistema?",
-      "respuesta": "Será reemplazado por el Reino de Dios que traerá justicia eterna.",
+      "titulo": {
+        "es": "¿Qué enseña la Biblia sobre el fin del sistema?",
+        "en": "Qué enseña la biblia sobre el fin del sistema"
+      },
+      "respuesta": {
+        "es": "Será reemplazado por el Reino de Dios que traerá justicia eterna.",
+        "en": "Será reemplazado por el Reino de Dios que traerá justicia eterna."
+      },
       "cita": "Daniel 2:44",
       "categoria": "Esperanza"
     }

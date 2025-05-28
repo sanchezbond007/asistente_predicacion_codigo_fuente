@@ -1,88 +1,70 @@
-# actualizar_maestro.py
-"""
-Script para generar maestro.json y debates.json a partir de bloque_*.json
-Ignora bloques con JSON inválido e informa errores.
-"""
-
 import json
 import glob
 import os
+import shutil
 
-# Ruta absoluta a la carpeta datos
 DATA_DIR = '/storage/emulated/0/asistente_predicacion_migracion_kivy/datos'
 
-def find_block_files(data_dir):
-    """Devuelve lista de archivos bloque_*.json en datos/ y datos/temas"""
-    patterns = [
+def buscar_archivos(data_dir):
+    patrones = [
         os.path.join(data_dir, 'bloque_*.json'),
         os.path.join(data_dir, 'temas', 'bloque_*.json'),
     ]
-    files = []
-    for pat in patterns:
-        found = glob.glob(pat)
-        print(f"Buscando en {pat}: {len(found)} archivos")
-        files.extend(found)
-    return files
+    archivos = []
+    for p in patrones:
+        archivos.extend(glob.glob(p))
+    return archivos
 
-def load_blocks(files):
-    """Carga y devuelve lista de temas de los archivos JSON"""
-    all_temas = []
-    for filepath in files:
-        print(f"Leyendo: {filepath}")
+def cargar_temas_sin_modificar(archivos):
+    todos = []
+    for archivo in archivos:
         try:
-            with open(filepath, 'r', encoding='utf-8') as f:
+            with open(archivo, 'r', encoding='utf-8') as f:
                 bloque = json.load(f)
-        except json.JSONDecodeError as e:
-            print(f"ERROR JSON en {os.path.basename(filepath)}: {e}")
-            continue
-        temas = bloque.get('temas', [])
-        print(f"  -> {len(temas)} temas en este bloque")
-        all_temas.extend(tema.copy() for tema in temas)
-    return all_temas
+                temas = bloque.get("temas", [])
+                todos.extend(temas)
+        except Exception as e:
+            print(f"[ERROR] al leer {archivo}: {e}")
+    return todos
 
-def deduplicate(temas):
-    """Elimina duplicados basándose en id o titulo"""
-    unique = {}
+def deduplicar(temas):
+    vistos = {}
     for tema in temas:
-        key = tema.get('id') or tema.get('titulo')
-        if key not in unique:
-            unique[key] = tema
-    return list(unique.values())
+        clave = json.dumps(tema.get("titulo", ""), ensure_ascii=False)
+        if clave not in vistos:
+            vistos[clave] = tema
+    return list(vistos.values())
 
-def assign_ids(temas):
-    """Asigna IDs secuenciales si faltan"""
-    result = []
-    for idx, tema in enumerate(temas, start=1):
-        t = tema.copy()
-        t['id'] = t.get('id', idx)
-        result.append(t)
-    return result
+def asignar_ids(temas):
+    for i, tema in enumerate(temas, 1):
+        tema["id"] = i
+    return temas
 
-def save_json(path, data):
-    """Guarda data en path como JSON"""
-    with open(path, 'w', encoding='utf-8') as f:
+def guardar_json(ruta, data):
+    with open(ruta, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+def backup_maestro(ruta):
+    if os.path.exists(ruta):
+        backup = ruta.replace('.json', '_backup.json')
+        shutil.copy(ruta, backup)
+        print(f"Copia de seguridad creada: {backup}")
+
 def main():
-    files = find_block_files(DATA_DIR)
-    if not files:
-        print("No se encontraron bloques. Verifica nombres y rutas.")
+    archivos = buscar_archivos(DATA_DIR)
+    if not archivos:
+        print("No se encontraron archivos.")
         return
 
-    temas = load_blocks(files)
-    print(f"Total de temas leídos: {len(temas)}")
-    unique = deduplicate(temas)
-    print(f"Temas únicos tras deduplicar: {len(unique)}")
-    temas_final = assign_ids(unique)
+    temas = cargar_temas_sin_modificar(archivos)
+    temas = deduplicar(temas)
+    temas = asignar_ids(temas)
 
     maestro_path = os.path.join(DATA_DIR, 'maestro.json')
-    save_json(maestro_path, temas_final)
-    print(f"Maestro generado con {len(temas_final)} temas en {maestro_path}")
+    backup_maestro(maestro_path)
+    guardar_json(maestro_path, temas)
 
-    debates = [t for t in temas_final if t.get('categoria', '').lower() == 'debate']
-    debates_path = os.path.join(DATA_DIR, 'debates.json')
-    save_json(debates_path, debates)
-    print(f"Debates generado con {len(debates)} temas en {debates_path}")
+    print(f"Archivo maestro.json generado con {len(temas)} temas exactamente como estaban en los bloques.")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

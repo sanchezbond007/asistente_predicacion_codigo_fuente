@@ -1,61 +1,65 @@
-# main.py
+import os
+import sys
 
-import os, sys
+from kivy.app import App
+from kivy.uix.screenmanager import ScreenManager
+from kivy.core.window import Window
 
-# Asegura que la carpeta donde está main.py esté en la ruta de búsqueda
+# Asegura que el sistema encuentre los módulos
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
-from kivy.app import App
-from kivy.core.window import Window
-from kivy.uix.screenmanager import ScreenManager, FadeTransition
-
-# Para que el teclado no desplace los layouts
-Window.softinput_mode = 'pan'
-
-# Importa todas tus pantallas
 from pantallas.login import PantallaLogin
+from pantallas.crear_usuario import PantallaCrearUsuario
 from pantallas.menu import PantallaMenu
-from pantallas.buscar import PantallaBuscar
-from pantallas.sugerencias import PantallaSugerencias
-from pantallas.categorias import PantallaCategorias
-from pantallas.debate import PantallaDebate
 from pantallas.contacto import PantallaContacto
-from pantallas.resumen_digital import PantallaResumenDigital
-from pantallas.recordatorio import PantallaRecordatorio
-from pantallas.editar_contacto import PantallaGestionContacto
 from pantallas.historial import PantallaHistorial
+from pantallas.lista_contactos import PantallaListaContactos
+from pantallas.sugerencias import PantallaSugerencias
+from pantallas.temas_profundos import PantallaTemasProfundos
+from pantallas.buscar import PantallaBuscar
+from pantallas.editar_contacto import PantallaEditarContacto
 
-class MainApp(App):
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        # Inicializamos el historial desde el arranque
-        self.historial = []
-
+class AsistentePredicacionApp(App):
     def build(self):
-        sm = ScreenManager(transition=FadeTransition())
+        self.idioma = 'es'  # idioma por defecto
+        self.sm = ScreenManager()
 
-        sm.add_widget(PantallaLogin(name='login'))
-        sm.add_widget(PantallaMenu(name='menu'))
-        sm.add_widget(PantallaBuscar(name='buscar'))
-        sm.add_widget(PantallaSugerencias(name='sugerencias'))
-        sm.add_widget(PantallaCategorias(name='categorias'))
-        sm.add_widget(PantallaDebate(name='debates'))
-        sm.add_widget(PantallaContacto(name='contacto'))
-        sm.add_widget(PantallaResumenDigital(name='resumen_digital'))
-        sm.add_widget(PantallaRecordatorio(name='recordatorio'))
-        sm.add_widget(PantallaGestionContacto(name='editar_contacto'))
-        sm.add_widget(PantallaHistorial(name='historial'))
+        # Pantallas base
+        self.sm.add_widget(PantallaLogin(name='login', idioma_callback=self.cambiar_idioma, continuar_callback=self.ir_a_menu))
+        self.sm.add_widget(PantallaCrearUsuario(name='crear_usuario', volver_callback=self.volver_al_menu))
+        self.sm.add_widget(PantallaMenu(name='menu', idioma=self.idioma, navegar_callback=self.navegar_a))
+        self.sm.add_widget(PantallaContacto(name='contacto', volver_callback=self.volver_al_menu))
+        self.sm.add_widget(PantallaHistorial(name='historial', volver_callback=self.volver_al_menu))
+        self.sm.add_widget(PantallaListaContactos(name='lista_contactos', volver_callback=self.volver_al_menu, editar_callback=self.ir_a_editar_contacto))
+        self.sm.add_widget(PantallaSugerencias(name='sugerencias', volver_callback=self.volver_al_menu, idioma=self.idioma))
+        self.sm.add_widget(PantallaTemasProfundos(name='temas_profundos', volver_callback=self.volver_al_menu, idioma=self.idioma))
+        self.sm.add_widget(PantallaBuscar(name='buscar', volver_callback=self.volver_al_menu))
+        self.sm.add_widget(PantallaEditarContacto(name='editar_contacto', volver_callback=self.volver_al_menu))
 
-        sm.current = 'login'
-        return sm
+        return self.sm
 
-    def registrar_evento(self, texto_evento: str):
-        """
-        Guarda en lista cada acción relevante.
-        """
-        self.historial.append(texto_evento)
+    def cambiar_idioma(self, idioma):
+        self.idioma = idioma
+        self.sm.get_screen('menu').idioma = idioma
+        self.sm.get_screen('sugerencias').idioma = idioma
+        self.sm.get_screen('temas_profundos').idioma = idioma
+
+    def ir_a_menu(self):
+        self.sm.current = 'menu'
+
+    def volver_al_menu(self, *args):
+        self.sm.current = 'menu'
+
+    def ir_a_editar_contacto(self, contacto_id):
+        editar_pantalla = self.sm.get_screen('editar_contacto')
+        editar_pantalla.cargar_contacto(contacto_id)
+        self.sm.current = 'editar_contacto'
+
+    def navegar_a(self, nombre_pantalla):
+        if nombre_pantalla in self.sm.screen_names:
+            self.sm.current = nombre_pantalla
 
 if __name__ == '__main__':
-    MainApp().run()
+    AsistentePredicacionApp().run()

@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Archivos ocultos del sistema
+.DS_Store
+
+# Buildozer (compilación de APKs)
+.buildozer/
+bin/
+*.apk
+
+# Logs o temporales
+*.log
+*.tmp

@@ -1,0 +1,29 @@
+import os
+import json
+
+def corregir_json_a_utf8(ruta_entrada, ruta_salida=None):
+    codificaciones = ['utf-8', 'utf-16', 'latin-1']
+    
+    for codificacion in codificaciones:
+        try:
+            with open(ruta_entrada, 'r', encoding=codificacion) as f:
+                datos = json.load(f)
+            print(f"[OK] Archivo leído exitosamente con codificación: {codificacion}")
+            
+            # Si no se especificó nombre de salida, se sobreescribe
+            if not ruta_salida:
+                ruta_salida = ruta_entrada
+
+            with open(ruta_salida, 'w', encoding='utf-8') as f:
+                json.dump(datos, f, ensure_ascii=False, indent=2)
+            print(f"[GUARDADO] Archivo corregido y guardado en UTF-8: {ruta_salida}")
+            return True
+        except Exception as e:
+            print(f"[ERROR] No se pudo leer con codificación {codificacion}: {e}")
+    
+    print("[FALLÓ] No se pudo corregir el archivo con ninguna codificación.")
+    return False
+
+# USO
+archivo = "datos/maestro_bilingue_corregido.json"
+corregir_json_a_utf8(archivo)
